@@ -1,0 +1,455 @@
+/* ==UserStyle==
+@name           youtube.com - Jan 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+	
+	
+	:root{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
+  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
+  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
+  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
+  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
+  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
+
+
+   
+}
+
+	
+	
+	
+	
+	
+	/*Top search bar realated colors*/
+		/*search bar button styles*/
+
+	html[dark], [dark] {
+    --ytd-searchbox-border-color: hsla(0, 67%, 35%, .4);
+		/*search bar border color*/
+    --ytd-searchbox-legacy-border-color: #98971aab !important;
+		/*inner box shadow*/
+    /*--ytd-searchbox-legacy-border-shadow-color: #cc241d !important;*/
+		/*Search bar background*/
+    --ytd-searchbox-legacy-button-color: #16181a!important;
+		/*search bar icon  border*/
+    --ytd-searchbox-legacy-button-border-color: #98971a59 !important;
+		/*search bar icon color when clicked */
+    --ytd-searchbox-legacy-button-focus-color: #fb4934!important;
+		/*search bar hover color*/
+    --ytd-searchbox-legacy-button-hover-color: #79740e!important;
+		/*when seaarch botton is clicked the border color of icon */
+    --ytd-searchbox-legacy-button-hover-border-color: #fb4934~!important;
+    --ytd-searchbox-legacy-button-icon-color: #98971a!important;
+		/*Search bar background color*/
+    --ytd-searchbox-background: #16181a!important;
+		/*Text box search color of text*/
+    --ytd-searchbox-text-color: #fb4934!important;
+}
+	
+	/*When search box is focused*/
+	ytd-searchbox[has-focus] #container.ytd-searchbox {
+    border: 1px solid #fe8019c2 !important;
+    /*how much the search bar expands after you click on it*/
+    margin-left: 0;
+    padding: 2px 4px 2px 48px;
+}
+	
+	
+	/*used this to channge the color of the search caret button */
+	
+	#container.ytd-searchbox {
+   
+
+		/*modified the border radiys to make the search bar more rounder*/
+		/* it was 40 , 0 0 , 40 before */
+    border-radius: 40px 40px 40px 40px;
+   
+		/*search carret button*/
+    caret-color: #fb4934 !important;
+ 
+}
+	
+	
+
+
+	/*search icon tweaks*/
+	/*tweaks to the way the search button looks */
+	
+		/* it was 0 , 40 ,  40 , 0 before */
+	#search-icon-legacy.ytd-searchbox {
+    border: 1px solid var(--ytd-searchbox-legacy-button-border-color);
+    background-color: var(--ytd-searchbox-legacy-button-color);
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+    margin: 0;
+}
+	
+	
+	
+	
+	/*All svgs on youtube UI */
+	svg{
+		color:#b8bb26 !important;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	/*styles realted to body */
+	
+	html[dark], [dark] {
+    --yt-spec-base-background: #16181a !important;
+		/*not sure what this menu is */
+    --yt-spec-raised-background: #d5c4a1!important;
+    --yt-spec-menu-background: #282828;
+		
+		/*not sure what this applies to */
+    --yt-spec-inverted-background: #98971a;
+		
+		/*categroy heading icosn base color */
+    --yt-spec-additive-background: #282828;
+		
+		/*color when the video is not loaded */
+    --yt-spec-outline: #d5c4a1!important;
+    --yt-spec-shadow: #98971a!important;
+		
+		/*categry text backgournd color*/
+    --yt-spec-text-primary: #d5c4a1 !important;
+		/*channel informatioin and countryu name first page*/
+    --yt-spec-text-secondary: #8ec07c;
+		
+		/*text disabled*/
+    --yt-spec-text-disabled: #98971a;
+		
+    --yt-spec-text-primary-inverse: #030303;
+		
+		
+
+		/*category button active cell hover*/
+    --yt-spec-button-chip-background-hover: #427b58;
+		
+    
+		
+		
+		
+    --yt-spec-wordmark-text: #fff;
+    --yt-spec-error-indicator: #ff8983;
+    --yt-spec-themed-blue: #3ea6ff;
+    --yt-spec-themed-green: #2ba640;
+    --yt-spec-ad-indicator: #00aaa7;
+    --yt-spec-themed-overlay-background: rgba(0,0,0,0.8);
+    --yt-spec-commerce-badge-background: #002d08;
+    --yt-spec-static-brand-red: #f00;
+    --yt-spec-static-brand-white: #fff;
+    --yt-spec-static-brand-black: #212121;
+    --yt-spec-static-clear-color: rgba(255,255,255,0);
+    --yt-spec-static-clear-black: rgba(0,0,0,0);
+    --yt-spec-static-ad-yellow: #fbc02d;
+    --yt-spec-static-grey: #606060;
+    --yt-spec-static-overlay-background-solid: #000;
+    --yt-spec-static-overlay-background-heavy: rgba(0,0,0,0.8);
+    --yt-spec-static-overlay-background-medium: rgba(0,0,0,0.6);
+    --yt-spec-static-overlay-background-medium-light: rgba(0,0,0,0.3);
+    --yt-spec-static-overlay-background-light: rgba(0,0,0,0.1);
+    --yt-spec-static-overlay-text-primary: #fff;
+    --yt-spec-static-overlay-text-primary-inverse: #030303;
+    --yt-spec-static-overlay-text-secondary: rgba(255,255,255,0.7);
+    --yt-spec-static-overlay-text-disabled: rgba(255,255,255,0.3);
+    --yt-spec-static-overlay-call-to-action: #3ea6ff;
+    --yt-spec-static-overlay-icon-active-other: #fff;
+    --yt-spec-static-overlay-icon-inactive: rgba(255,255,255,0.7);
+    --yt-spec-static-overlay-icon-disabled: rgba(255,255,255,0.3);
+    --yt-spec-static-overlay-button-primary: rgba(255,255,255,0.3);
+    --yt-spec-static-overlay-button-secondary: rgba(255,255,255,0.1);
+    --yt-spec-static-overlay-touch-response: #fff;
+    --yt-spec-static-overlay-touch-response-inverse: #000;
+    --yt-spec-static-overlay-background-brand: rgba(204,0,0,0.9);
+    --yt-spec-assistive-feed-themed-gradient-1: #005446;
+    --yt-spec-assistive-feed-themed-gradient-2: #39003f;
+    --yt-spec-assistive-feed-themed-gradient-3: #590000;
+    --yt-spec-discover-red: #ff4e45;
+    --yt-spec-discover-green: #a4ffa4;
+    --yt-spec-discover-blue: #6ea2ff;
+    --yt-spec-brand-background-solid: #212121;
+    --yt-spec-brand-background-primary: rgba(33,33,33,0.98);
+    --yt-spec-brand-background-secondary: rgba(33,33,33,0.95);
+    --yt-spec-general-background-a: #181818;
+    --yt-spec-general-background-b: #0f0f0f;
+    --yt-spec-general-background-c: #030303;
+    --yt-spec-error-background: #f9f9f9;
+    --yt-spec-10-percent-layer: rgba(255,255,255,0.1);
+    --yt-spec-snackbar-background: #030303;
+    --yt-spec-snackbar-background-updated: #f9f9f9;
+    --yt-spec-badge-chip-background: rgba(255,255,255,0.1);
+    --yt-spec-verified-badge-background: rgba(255,255,255,0.25);
+    --yt-spec-call-to-action-faded: rgba(62,166,255,0.3);
+    --yt-spec-call-to-action-hover: #6ebcff;
+    --yt-spec-brand-button-background-hover: #990412;
+    --yt-spec-brand-link-text-faded: rgba(255,78,69,0.3);
+    --yt-spec-filled-button-focus-outline: rgba(255,255,255,0.7);
+    --yt-spec-static-overlay-button-hover: rgba(255,255,255,0.5);
+    --yt-spec-mono-filled-hover: #d9d9d9;
+    --yt-spec-commerce-filled-hover: #65b8ff;
+    --yt-spec-mono-tonal-hover: rgba(255,255,255,0.2);
+    --yt-spec-commerce-tonal-hover: #515561;
+    --yt-spec-static-overlay-filled-hover: #e6e6e6;
+    --yt-spec-static-overlay-tonal-hover: rgba(255,255,255,0.2);
+    --yt-spec-paper-tab-ink: rgba(255,255,255,0.3);
+    --yt-spec-filled-button-text: #030303;
+    --yt-spec-selected-nav-text: #fff;
+}
+	
+	
+	
+	
+	
+	html[dark] {
+    --yt-live-chat-background-color: var(--yt-spec-base-background);
+    --yt-live-chat-action-panel-background-color: var(--yt-spec-base-background);
+    --yt-live-chat-action-panel-background-color-transparent: rgba(40,40,40,0.8);
+    --yt-live-chat-additive-background-inverse: var(--yt-spec-black-pure-alpha-5);
+    --yt-live-chat-secondary-background-color: #282828;
+    --yt-live-chat-toast-text-color: var(--yt-spec-static-brand-white);
+    --yt-live-chat-toast-background-color: #323232;
+    --yt-live-chat-mode-change-background-color: #333;
+    --yt-live-chat-primary-text-color: var(--yt-spec-static-brand-white);
+    --yt-live-chat-secondary-text-color: rgba(255,255,255,0.7);
+    --yt-live-chat-secondary-text-color-inverse: var(--yt-spec-grey-5);
+    --yt-live-chat-tertiary-text-color: rgba(255,255,255,0.54);
+    --yt-live-chat-tertiary-text-color-inverse: var( --yt-spec-black-pure-alpha-30 );
+    --yt-live-chat-text-input-field-inactive-underline-color: #666;
+    --yt-live-chat-text-input-field-placeholder-color: #666;
+    --yt-live-chat-icon-button-color: var(--yt-live-chat-primary-text-color);
+    --yt-live-chat-enabled-send-button-color: #fff;
+    --yt-live-chat-disabled-icon-button-color: rgba(255,255,255,0.3);
+    --yt-live-chat-picker-button-color: var(--yt-live-chat-tertiary-text-color);
+    --yt-live-chat-picker-button-active-color: var(--yt-spec-static-brand-white);
+    --yt-live-chat-picker-button-disabled-color: var( --yt-live-chat-disabled-icon-button-color );
+    --yt-live-chat-picker-button-hover-color: rgba(255,255,255,0.74);
+    --yt-live-chat-mention-background-color: #ff5722;
+    --yt-live-chat-mention-text-color: #fff;
+    --yt-live-chat-deleted-message-color: rgba(255,255,255,0.5);
+    --yt-live-chat-deleted-message-bar-color: rgba(255,255,255,0.5);
+    --yt-live-chat-error-message-color: var(--yt-spec-brand-link-text);
+    --yt-live-chat-reconnect-message-color: #fff;
+    --yt-live-chat-disabled-button-background-color: #444;
+    --yt-live-chat-disabled-button-text-color: var( --yt-live-chat-secondary-text-color );
+    --yt-live-chat-sub-panel-background-color: var(--yt-spec-base-background);
+    --yt-live-chat-sub-panel-background-color-transparent: var( --yt-spec-base-background );
+    --yt-live-chat-header-background-color: var(--yt-spec-base-background);
+    --yt-live-chat-header-button-color: var(--yt-live-chat-secondary-text-color);
+    --yt-live-chat-moderator-color: #5e84f1;
+    --yt-live-chat-owner-color: #ffd600;
+    --yt-live-chat-message-highlight-background-color: var( --yt-spec-raised-background );
+    --yt-live-chat-author-chip-owner-text-color: var(--yt-deprecated-luna-black);
+    --yt-live-chat-author-chip-verified-background-color: var(--yt-spec-grey-5);
+    --yt-live-chat-author-chip-verified-text-color: var(--yt-spec-white-4);
+    --yt-live-chat-sponsor-color: #2ba640;
+    --yt-live-chat-overlay-color: rgba(0,0,0,0.5);
+    --yt-live-chat-dialog-background-color: #424242;
+    --yt-live-chat-dialog-text-color: var(--yt-spec-static-brand-white);
+    --yt-live-chat-button-default-text-color: var(--yt-spec-static-brand-white);
+    --yt-live-chat-button-default-background-color: var( --yt-deprecated-white-opacity-lighten-4 );
+    --yt-live-chat-button-dark-text-color: var(--yt-spec-static-brand-white);
+    --yt-live-chat-button-dark-background-color: var( --yt-deprecated-white-opacity-lighten-4 );
+    --yt-emoji-picker-variant-selector-bg-color: #2f2f2f;
+    --yt-live-chat-moderation-mode-hover-background-color: rgba(255,255,255,0.3);
+    --yt-live-chat-additional-inline-action-button-color: var(--yt-grey);
+    --yt-live-chat-additional-inline-action-button-background-color: var( --yt-deprecated-opalescence-soft-grey-opacity-lighten-1 );
+    --yt-live-chat-additional-inline-action-button-background-color-hover: var( --yt-deprecated-opalescence-soft-grey );
+    --yt-formatted-string-emoji-size: 24px;
+    --yt-live-chat-emoji-size: 24px;
+    --yt-live-chat-text-input-field-suggestion-background-color: #3e3e3e;
+    --yt-live-chat-text-input-field-suggestion-background-color-hover: #343434;
+    --yt-live-chat-text-input-field-suggestion-text-color: var( --yt-spec-static-brand-white );
+    --yt-live-chat-text-input-field-suggestion-text-color-hover: var( --yt-spec-static-brand-white );
+    --yt-live-chat-text-input-field-placeholder-color: var( --yt-live-chat-secondary-text-color );
+    --yt-live-chat-ticker-arrow-background: var( --yt-live-chat-action-panel-background-color );
+    --yt-emoji-picker-category-background-color: var( --yt-live-chat-action-panel-background-color-transparent );
+    --yt-emoji-picker-category-color: var(--yt-live-chat-secondary-text-color);
+    --yt-emoji-picker-search-background-color: #444;
+    --yt-emoji-picker-search-color: #fff;
+    --yt-emoji-picker-search-placeholder-color: #999;
+    --yt-emoji-picker-base-with-variants-border: var(--yt-spec-white-1-alpha-25);
+    --yt-live-chat-slider-active-color: #2196f3;
+    --yt-live-chat-slider-container-color: #515151;
+    --yt-live-chat-slider-markers-color: #fff;
+    --yt-live-chat-banner-gradient-scrim: linear-gradient(rgba(40,40,40,0.95),transparent);
+    --yt-live-chat-action-panel-gradient-scrim: linear-gradient(to top,rgba(40,40,40,0.95),transparent);
+    --yt-live-chat-poll-choice-additive-background-color: var( --yt-spec-white-1-alpha-20 );
+    --yt-live-chat-poll-choice-additive-background-color-inverse: var( --yt-spec-black-pure-alpha-10 );
+    --yt-live-chat-poll-banner-border-highlight-color: var(--yt-spec-black-3);
+    --yt-live-chat-poll-editor-start-button-background-color-disabled: var( --yt-spec-grey-1 );
+    --yt-live-chat-automod-button-background-color: var( --yt-deprecated-opalescence-grey-opacity-lighten-3 );
+    --yt-live-chat-automod-button-background-color-hover: rgba(255,255,255,0.5);
+    --yt-live-chat-automod-button-explanation-color: rgba(255,255,255,0.7);
+    --yt-live-chat-countdown-opacity: 0.5;
+    --yt-live-chat-shimmer-background-color: rgba(17,17,17,0.4);
+    --yt-live-chat-shimmer-linear-gradient: linear-gradient(0deg,rgba(0,0,0,0.1) 40%,rgba(100,100,100,0.3) 50%,rgba(0,0,0,0.1) 60%);
+    --yt-live-chat-vem-background-color: #3e3e3e;
+    --yt-live-chat-product-picker-icon-color: rgba(255,255,255,0.5);
+    --yt-live-chat-product-picker-hover-color: rgba(68,68,68,1);
+    --yt-live-chat-product-picker-disabled-icon-color: rgba(255,255,255,0.3);
+    --yt-pdg-paid-stickers-tab-selection-bar-color: var(--yt-spec-light-blue);
+}
+	
+	
+	
+	html[darker-dark-theme-deprecate], [darker-dark-theme-deprecate] {
+    --yt-spec-brand-background-solid: var(--yt-spec-raised-background);
+    --yt-spec-brand-background-primary: var(--yt-spec-raised-background);
+    --yt-spec-brand-background-secondary: var(--yt-spec-raised-background);
+    --yt-spec-general-background-a: var(--yt-spec-base-background);
+    --yt-spec-general-background-b: var(--yt-spec-base-background);
+    --yt-spec-general-background-c: var(--yt-spec-base-background);
+    --yt-spec-error-background: var(--yt-spec-inverted-background);
+    --yt-spec-badge-chip-background: var(--yt-spec-additive-background);
+    --yt-spec-verified-badge-background: var(--yt-spec-additive-background);
+    --yt-spec-10-percent-layer: var(--yt-spec-outline);
+    --yt-spec-snackbar-background: var(--yt-spec-inverted-background);
+}
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+}
