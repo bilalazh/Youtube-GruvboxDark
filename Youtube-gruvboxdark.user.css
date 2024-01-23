@@ -334,6 +334,33 @@ color : #fb4934 !important ;
 		
 		
 		
+		
+		
+		
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*Channel information styles */
+		
 		/*more about channel cards*/
 		
 		#about-container.ytd-about-channel-renderer {
@@ -374,14 +401,174 @@ color : #fb4934 !important ;
 }
 		
 		
+	
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*timer */
+		/*.ytp-timed-markers-container {
+			
+			background-color: #98971a !important;
+    -webkit-transform: scaleY(.6);
+    -ms-transform: scaleY(.6);
+    transform: scaleY(.6);
+    top: 1px;
+    z-index: 40;
+}
+		
+		*/
+
+
 		
 
 		
 		
 		
 		
+		
+
+
+.ytp-progress-linear-live-buffer {
+    z-index: 45;
+    background: #98971a !important;
+	color:#98971a !important;
+    opacity: 0;
+}
+		
+		
+		/*Progress timer Line/ Bar*/
+/*how much video have loaded*/
+		.ytp-load-progress{
+			background: #427b58 !important;
+	color:#98971a !important;
+		}
+		
+		.ytp-play-progress{
+			background: #fe8019 !important;
+	color:#98971a !important;
+			
+		}
+		
+		
+		
+/* home , video and shorts tabs on the community		 */
+		
+		.yt-tab-shape-wiz__tab {
+    color: #83a598;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+}
+			
+/* hover effect on this 		 */
+	.yt-tab-shape-wiz__tab:hover{
+    color: #fe8019;
+  
+}
+		
+		
+	
+		
+		
+	
+		tp-yt-paper-item {
+			color:#98971a !important;
+			background-color:#9d0006 !important;
+    --paper-item-min-height: 36px;
+    padding: 0 12px 0 16px;
+}
+		
+			
+		tp-yt-paper-item.ytd-menu-service-item-renderer :hover {
+			color:#98971a !important;
+			background-color:#16181a !important;
+    --paper-item-min-height: 36px;
+    padding: 0 12px 0 16px;
+}
+		
+		
+		
+		
+		
+		
+		
+		/*channel name */
+		
+		
+		#text.ytd-channel-name {
+    
+   
+color:#f57d26 !important;
+
+		}
+		
+			#text.ytd-channel-name:hover{
+color:#fb4934 !important;
+
+		}
+		
+		
+		
+		
+		
+		/*Title of youtube videos*/
+		
+		
+		ytd-watch-metadata[title-headline-xs] h1.ytd-watch-metadata {
+    
+			color : #98971a !important ; 
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+   
+}
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*Playlist header */
+		ytd-playlist-panel-renderer[collapsible] .header.ytd-playlist-panel-renderer {
+    padding: 12px 6px 0 16px;
+			
+background-color:#1d2021 !important;
+}
+		
+		
+		
+		/*Name of the AI news */
+		
+		yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #fe8019 !important;
+			
+}
+		
+				yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string:hover{
+    color: #fb4934 !important;
+			
+}
+		
+		
+		
+
+	
 		
 		
 		
@@ -390,20 +577,17 @@ color : #fb4934 !important ;
 .yt-core-attributed-string--white-space-no-wrap {
     white-space: nowrap;
 	
-color:#fe8019 !important;
+color:#f57d26 !important;
 }
 	
 
-		
 
 	
 	
-	
-	
-		
-		
 	}
 	
+		
+		
 	
 	
 	
@@ -411,11 +595,13 @@ color:#fe8019 !important;
 	
 	
 	
-	
-	
-
 	
 	
 	
 	
 }
+	
+	
+	
+	
+
