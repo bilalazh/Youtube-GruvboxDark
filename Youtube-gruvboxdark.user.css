@@ -214,6 +214,10 @@
 color : #fb4934 !important ; 		
 	}
 	
+	/*links  hover*/
+	a:hover{
+		color: #fabd2f !important;
+	}
 	
 	
 	
@@ -334,14 +338,47 @@ color : #fb4934 !important ;
 		
 		#about-container.ytd-about-channel-renderer {
     flex: 2;
-    color: black !important;
-		background-color:#98971a !important;
+    color: #d5c4a1 !important;
+		background-color:#16181a !important;
     min-width: 0;
     word-wrap: break-word;
     max-height: 65vh;
     --paper-dialog-scrollable-height: 100%;
     --paper-dialog-scrollable-padding: 0;
 }
+		
+		#header.ytd-engagement-panel-title-header-renderer {
+    display: block;
+    padding: 4px 2px 4px 16px;
+    color: var(--yt-spec-text-primary);
+    background-color: #16181a ;
+    
+   
+}
+		
+		
+		ytd-engagement-panel-section-list-renderer[dialog][dialog] {
+			background-color: #16181a !important;
+    margin-top: 0;
+    padding-top: 0;
+}
+		
+
+		tp-yt-paper-dialog[modern] {
+   background-color:  #16181a !important;
+}
+		
+				ytd-section-list-renderer[engagement-panel-dialog][should-scroll-in-panel] #contents.ytd-section-list-renderer {
+			background-color: #16181a !important;
+    overflow-y: auto;
+}
+		
+		
+		
+		
+		
+
+		
 		
 		
 		
@@ -356,7 +393,7 @@ color : #fb4934 !important ;
 color:#fe8019 !important;
 }
 	
-		
+
 		
 
 	
