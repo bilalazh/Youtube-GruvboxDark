@@ -134,6 +134,15 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*Top search bar realated colors*/
 		/*search bar button styles*/
 
@@ -205,9 +214,10 @@
 	
 	/*All svgs on youtube UI */
 	svg{
-		color:#b8bb26 !important;
+		color:#b8bb26fc !important;
 	
 	}
+	
 	
 	/*Links color */
 	a{
@@ -216,7 +226,7 @@ color : #fb4934 !important ;
 	
 	/*links  hover*/
 	a:hover{
-		color: #fabd2f !important;
+		color: #b8bb26 !important;
 	}
 	
 	
@@ -238,7 +248,7 @@ color : #fb4934 !important ;
     --yt-spec-additive-background: #282828;
 		
 		/*color when the video is not loaded */
-    --yt-spec-outline: #d5c4a1!important;
+    --yt-spec-outline: #16181a!important;
     --yt-spec-shadow: #98971a!important;
 		
 		/*categry text backgournd color*/
@@ -254,7 +264,7 @@ color : #fb4934 !important ;
 		
 
 		/*category button active cell hover*/
-    --yt-spec-button-chip-background-hover: #427b58;
+    --yt-spec-button-chip-background-hover: #16181a;
 		
     
 		
@@ -480,21 +490,53 @@ color : #fb4934 !important ;
 	
 		
 		
-	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*Side bar*/
+		/*side bar styles*/
+		
+	/*Side bar tabs bar  */
 		tp-yt-paper-item {
 			color:#98971a !important;
-			background-color:#9d0006 !important;
+			background-color:#1d2021 !important;
+    --paper-item-min-height: 36px;
+    padding: 0 12px 0 16px;
+}
+		/*hover fpr side bar tabs */
+			
+		tp-yt-paper-item:hover {
+			color:#98971a !important;
+			background-color:#427b58 !important;
     --paper-item-min-height: 36px;
     padding: 0 12px 0 16px;
 }
 		
-			
-		tp-yt-paper-item.ytd-menu-service-item-renderer :hover {
-			color:#98971a !important;
-			background-color:#16181a !important;
-    --paper-item-min-height: 36px;
-    padding: 0 12px 0 16px;
-}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
