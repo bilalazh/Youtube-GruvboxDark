@@ -136,6 +136,9 @@
 	
 	
 	
+		
+
+	
 	
 	
 	
@@ -268,7 +271,9 @@ color : #fb4934 !important ;
 }
 	
 
-			/*Name of the AI news */
+	
+
+			/*Name of Channel*/
 		
 		yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
     color: #fb4934 !important;
@@ -276,6 +281,87 @@ color : #fb4934 !important ;
 }
 
 	
+/*yoututbe notification icons */
+	.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge {
+    background-color: #79740e;
+    color: #f9f5d7;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*channel page */
+	/*any channel page */
+	
+			
+		/* Youtube channel name Font  */
+		#text.ytd-channel-name {
+   font-size: 15px !important;
+
+		}
+
+		/*Youtuber name handle , suscribers , videos nun*/
+		 .ytd-c4-tabbed-header-renderer
+		{
+			color:#98971a !important;
+			background-color:#000 !important;
+		}
+		
+	
+	/*Youtube video titles on creator page */
+	ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer {
+		color:#98971a !important;
+    font-family: "chivo" , sans-serif !important;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    
+}
+	ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer:hover{
+   	color:#fb4934 !important;
+    font-family: "chivo" , sans-serif !important;
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+
+	/*youtuber channel stats per video */
+	ytd-grid-video-renderer:not([inline-badges]) #metadata-line.ytd-grid-video-renderer span.ytd-grid-video-renderer {
+    display: inline-block;
+color:#d5c4a1 !important;
+}
+	
+	/*Youtube playlists */
+	ytd-shelf-renderer[modern-typography] #title.ytd-shelf-renderer {
+color:#689d6a !important;
+    font-family: "Chivo",sans-serif;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    font-weight: 600;
+    overflow: hidden;
+    display: block;
+    max-height: 2.8rem;
+    -webkit-line-clamp: 1;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+	
+	
 	
 	
 
@@ -294,12 +380,33 @@ color : #fb4934 !important ;
 	
 	
 	
+	/*Video page description */
+	ytd-watch-metadata[description-collapsed] #description.ytd-watch-metadata{
+    background-color: #16181a !important;
+		
+}
+	
+	/*tiele and other things */
+	
+	.style-scope yt-formatted-string{
+		color:#98971a !important;
+	}
+	
+	/*Icon text on the video page */
+	.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
+    color: #8ec07c;
+    background-color: rgba(255,255,255,0.1);
+}
 	
 	
+	.style-scope .ytd-compact-video-renderer .style-scope .ytd-compact-video-renderer{
+		color:#b8bb26 !important;
+	}
 	
-	
-	
-	
+	#text.ytd-channel-name {
+color:#fb4934 !important;
+    font-size: 15px !important;
+}
 	
 	
 	
@@ -330,8 +437,12 @@ color : #fb4934 !important ;
 		
 		/*categry text backgournd color*/
     --yt-spec-text-primary: #d5c4a1 !important;
+		
+		
+		/*view count front page */
+		/*days ago */
 		/*channel informatioin and countryu name first page*/
-    --yt-spec-text-secondary: #8ec07c;
+    --yt-spec-text-secondary: #f57d26;
 		
 		/*text disabled*/
     --yt-spec-text-disabled: #98971a;
@@ -343,7 +454,10 @@ color : #fb4934 !important ;
 		/*category button active cell hover*/
     --yt-spec-button-chip-background-hover: #16181a;
 		
-    
+		
+		
+		/*warning box background and rating video styles*/
+    --yt-spec-brand-background-solid :#16181a !important;
 		
 		/*Not sure where these are applied leaving them as they are */
 		/* --yt-spec-wordmark-text: #cc241d!important;
@@ -388,6 +502,8 @@ color : #fb4934 !important ;
     --yt-spec-discover-red: #fdf6e3;
     --yt-spec-discover-green: #a4ffa4;
     --yt-spec-discover-blue: #6ea2ff;
+		
+		
     --yt-spec-brand-background-solid: #212121;
     --yt-spec-brand-background-primary: rgba(33,33,33,0.98);
     --yt-spec-brand-background-secondary: rgba(33,33,33,0.95);
@@ -620,36 +736,12 @@ color : #fb4934 !important ;
 		
 		
 		
-		/*channel name */
 		
 		
-		#text.ytd-channel-name {
-    
-   
-color:#f57d26 !important;
 
-		}
 		
-			#text.ytd-channel-name:hover{
-color:#fb4934 !important;
+		
 
-		}
-		
-		
-		
-		
-		
-		/*Title of youtube videos*/
-		
-		
-		ytd-watch-metadata[title-headline-xs] h1.ytd-watch-metadata {
-    
-			color : #98971a !important ; 
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    font-weight: 700;
-   
-}
 		
 	
 		
@@ -685,19 +777,19 @@ background-color:#1d2021 !important;
 		
 		
 
-
+/*
 .yt-core-attributed-string--white-space-no-wrap {
     white-space: nowrap;
 	
 color:#f57d26 !important;
 }
 	
+*/
 
-
+	
 	
 	
 	}
-	
 		
 		
 	
