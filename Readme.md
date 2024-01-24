@@ -7,3 +7,4 @@
 
 # TODO:
 - make this more uniform 
+- Change player colors 
