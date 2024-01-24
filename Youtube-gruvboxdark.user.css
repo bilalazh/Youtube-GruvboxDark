@@ -200,8 +200,8 @@
 	
 		/* it was 0 , 40 ,  40 , 0 before */
 	#search-icon-legacy.ytd-searchbox {
-    border: 1px solid var(--ytd-searchbox-legacy-button-border-color);
-    background-color: var(--ytd-searchbox-legacy-button-color);
+    border: 1px solid var(--dim-green);
+    background-color: #3c3836 !important;
     border-radius: 40px 40px 40px 40px;
     cursor: pointer;
     height: 40px;
@@ -228,6 +228,83 @@ color : #fb4934 !important ;
 	a:hover{
 		color: #b8bb26 !important;
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Recoomandation Page */
+	
+	/*Youtube video titles*/
+	/* video titles*/
+	
+	#video-title.ytd-rich-grid-media {
+    color: #b8bb26 !important;
+    font-family: "chivo",sans-serif !important;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+
+}
+	
+
+			/*Name of the AI news */
+		
+		yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #fb4934 !important;
+			
+}
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -454,7 +531,7 @@ color : #fb4934 !important ;
     opacity: 0;
 }
 		
-		
+		/*youtube progress*/
 		/*Progress timer Line/ Bar*/
 /*how much video have loaded*/
 		.ytp-load-progress{
@@ -473,7 +550,7 @@ color : #fb4934 !important ;
 /* home , video and shorts tabs on the community		 */
 		
 		.yt-tab-shape-wiz__tab {
-    color: #83a598;
+    color: #d5c4a1;
     font-family: "Roboto","Arial",sans-serif;
     font-size: 1.6rem;
     line-height: 2.2rem;
@@ -520,7 +597,6 @@ color : #fb4934 !important ;
     --paper-item-min-height: 36px;
     padding: 0 12px 0 16px;
 }
-		
 		
 		
 		
@@ -595,12 +671,6 @@ background-color:#1d2021 !important;
 		
 		
 		
-		/*Name of the AI news */
-		
-		yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
-    color: #fe8019 !important;
-			
-}
 		
 				yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string:hover{
     color: #fb4934 !important;
