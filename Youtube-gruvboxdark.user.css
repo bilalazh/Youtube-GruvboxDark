@@ -299,13 +299,15 @@ color : #fb4934 !important ;
   
    /*Youtube Side bar links color*/
 	.title.ytd-guide-entry-renderer{
-		color:#8ec07c !important;
+		color:#ebdbb2 !important;
 font-family: "chivo" !important;
 		font-size: 13px !important; 
 		
 	}
 		
 		
+	/*Youtube coutnry icon -> hidden kind of */
+	
 	.style-scope .ytd-topbar-logo-renderer{
 		
 		/*setting the opacity to zero because i dont want to see this*/
@@ -337,7 +339,7 @@ font-family: "chivo" !important;
 		 .ytd-c4-tabbed-header-renderer
 		{
 			color:#98971a !important;
-			background-color:#000 !important;
+			background-color:#1d2021 !important;
 		}
 		
 	
@@ -433,6 +435,8 @@ color:#689d6a !important;
 color:#fb4934 !important;
     font-size: 15px !important;
 }
+	
+	
 	
 	
 	
