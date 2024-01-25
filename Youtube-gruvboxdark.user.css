@@ -289,14 +289,32 @@ color : #fb4934 !important ;
 	
 	
 	
-	html body {
- 
+/*Subscription and explore titles in the side bar */
+	.style-scope .ytd-guide-section-renderer{
+		color:#d5c4a1 !important;
+	}
+	
+	
+	
+  
+   /*Youtube Side bar links color*/
+	.title.ytd-guide-entry-renderer{
+		color:#8ec07c !important;
+font-family: "chivo" !important;
+		font-size: 13px !important; 
 		
-}
+	}
+		
+		
+	.style-scope .ytd-topbar-logo-renderer{
+		
+		/*setting the opacity to zero because i dont want to see this*/
+		/*opacity is working universally so making it black instead */
 	
+		
+		color:#16181a !important;
 	
-	
-	
+	}
 	
 	
 	
