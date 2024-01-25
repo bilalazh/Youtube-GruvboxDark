@@ -395,8 +395,11 @@ color:#689d6a !important;
 	}
 	
 	/*Icon text on the video page */
+/*like  , share button */
 	.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
-    color: #8ec07c;
+    color: #79740e;
+		font-size: 14px !important ; 
+		font-weight : 600 ; 
     background-color: rgba(255,255,255,0.1);
 }
 	
@@ -673,15 +676,59 @@ color:#fb4934 !important;
 		/*Progress timer Line/ Bar*/
 /*how much video have loaded*/
 		.ytp-load-progress{
-			background: #427b58 !important;
+			background: #98971a !important;
 	color:#98971a !important;
 		}
 		
 		.ytp-play-progress{
-			background: #fe8019 !important;
-	color:#98971a !important;
+			background: #b57614 !important;
+	color:#d79921 !important;
 			
 		}
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+	
+		
+		
+		
+		    #logo-icon {
+            content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 15 200 30' preserveAspectRatio='xMidYMid meet' class='style-scope yt-icon' style='pointer-events: none; display: block; width: 100%25; height: 100%25;'%3E%3Cg viewBox='0 0 200 60' preserveAspectRatio='xMidYMid meet' class='style-scope yt-icon'%3E%5C %3Cg class='style-scope yt-icon'%3E%5C %3Cpath fill='%23FF0000' d='M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31 c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56 C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30 S64.31,19.77,63,14.87z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpolygon fill='%23FFFFFF' points='26.6,39.43 42.93,30 26.6,20.57' class='style-scope yt-icon'%3E%3C/polygon%3E%5C %3C/g%3E%5C %3Cg class='style-scope yt-icon'%3E%5C %3Cg id='youtube-paths' class='style-scope yt-icon'%3E%5C %3Cpath fill='%23282828' d='m 86.367425,16.382245 h -9.87831 v 10.29539 h 7.18953 v 5.26083 h -7.18953 v 16.913853 h -5.84515 V 11.121414 h 15.72346 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23282828' d='m 102.97183,21.28 v 27.55 h -4.850035 l -0.54,-3.37 h -0.13 c -1.32,2.55 -3.3,3.82 -5.93,3.82 -1.83,0 -3.18,-0.6 -4.05,-1.8 -0.87,-1.2 -1.3,-3.07 -1.3,-5.62 V 21.28 h 6.2 v 20.23 c 0,1.23 0.13,2.11 0.4,2.63 0.27,0.52 0.72,0.79 1.35,0.79 0.54,0 1.06,-0.16 1.55,-0.49 0.49,-0.33 0.86,-0.75 1.1,-1.26 v -21.9 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23282828' d='m 116.44773,30.523703 q 0,-1.583906 0,-2.262723 0,-0.735385 -0.12744,-1.131361 -0.3186,-2.093019 -2.54879,-2.093019 -1.46556,0 -2.10275,0.961657 -0.6372,0.90509 -0.6372,2.94154 v 11.822726 q 0,3.903198 2.73995,3.903198 2.42135,0 2.61252,-2.884971 0.0637,-0.282842 0.0637,-1.074795 0,-0.84852 0,-2.03645 h 5.73479 v 1.301066 q 0,1.244497 -0.0637,2.149587 -0.0637,0.848521 -0.25489,1.583906 -0.12743,0.678816 -0.44603,1.301065 -0.25487,0.565681 -0.63719,1.131361 -1.08325,1.470771 -2.93113,2.319292 -1.78416,0.848521 -3.88691,0.848521 -2.03904,0 -3.88691,-0.791953 -1.84788,-0.791953 -2.99482,-2.09302 -0.95581,-1.187929 -1.40184,-2.658698 -0.38231,-1.527338 -0.38231,-3.959766 v -9.842844 q 0,-2.488995 0.38231,-3.959765 0.44603,-1.527338 1.40184,-2.715267 1.14694,-1.301065 2.99482,-2.093019 1.91159,-0.791953 3.95062,-0.791953 2.80367,0 4.90646,1.357634 2.16646,1.357634 2.86738,3.676924 0.25489,0.791953 0.3186,1.810179 0.0637,0.961657 0.0637,3.280948 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23282828' d='m 130.44423,31.481105 5.37754,-10.804502 h 5.31908 l -5.26063,9.3903 5.72824,18.724032 h -5.14373 l -3.68244,-13.067225 -2.33806,4.072902 v 8.994323 H 125.1836 V 11.060031 h 5.26063 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23282828' d='m 162.75236,48.03 c -1.24,-0.84 -2.13,-2.14 -2.65,-3.91 -0.52,-1.77 -0.79,-4.12 -0.79,-7.06 v -4 c 0,-2.97 0.3,-5.35 0.9,-7.15 0.6,-1.8 1.54,-3.11 2.81,-3.93 1.27,-0.82 2.94,-1.24 5.01,-1.24 2.04,0 3.67,0.42 4.9,1.26 1.23,0.84 2.13,2.15 2.7,3.93 0.57,1.78 0.85,4.16 0.85,7.12 v 4 c 0,2.94 -0.28,5.3 -0.83,7.08 -0.55,1.78 -1.45,3.09 -2.7,3.91 -1.24,0.82 -2.93,1.24 -5.06,1.24 -2.18,0.01 -3.9,-0.41 -5.14,-1.25 z m 6.97,-4.32 c 0.34,-0.9 0.52,-2.37 0.52,-4.4 v -8.59 c 0,-1.98 -0.17,-3.42 -0.52,-4.34 -0.34,-0.91 -0.95,-1.37 -1.82,-1.37 -0.84,0 -1.43,0.46 -1.78,1.37 -0.34,0.91 -0.52,2.36 -0.52,4.34 v 8.59 c 0,2.04 0.16,3.51 0.49,4.4 0.33,0.9 0.93,1.35 1.8,1.35 0.88,0 1.48,-0.45 1.83,-1.35 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23282828' d='m 147.65236,36.61 -7.06,-25.49 h 6.16 l 2.47,11.55 c 0.63,2.85 1.09,5.27 1.39,7.28 h 0.18 c 0.21,-1.44 0.67,-3.85 1.39,-7.24 l 2.56,-11.6 h 6.16 l -7.14,25.5 v 12.23 h -6.11 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23282828' d='m 196.51236,21.28 v 27.55 h -4.85 l -0.54,-3.37 h -0.13 c -1.32,2.55 -3.3,3.82 -5.93,3.82 -1.83,0 -3.18,-0.6 -4.05,-1.8 -0.87,-1.2 -1.3,-3.07 -1.3,-5.62 V 21.28 h 6.2 v 20.23 c 0,1.23 0.13,2.11 0.4,2.63 0.27,0.52 0.72,0.79 1.35,0.79 0.54,0 1.06,-0.16 1.55,-0.49 0.49,-0.33 0.86,-0.75 1.1,-1.26 v -21.9 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3C/g%3E%5C %3C/g%3E%5C %3C/g%3E%3C/svg%3E") !important;
+            background-image: none !important;
+        }
+
+        html[dark] #logo-icon {
+            content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 15 200 30' preserveAspectRatio='xMidYMid meet' class='style-scope yt-icon' style='pointer-events: none; display: block; width: 100%25; height: 100%25;'%3E%3Cg viewBox='0 0 200 60' preserveAspectRatio='xMidYMid meet' class='style-scope yt-icon'%3E%5C %3Cg class='style-scope yt-icon'%3E%5C %3Cpath fill='%23FF0000' d='M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31 c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56 C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30 S64.31,19.77,63,14.87z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpolygon fill='%23FFFFFF' points='26.6,39.43 42.93,30 26.6,20.57' class='style-scope yt-icon'%3E%3C/polygon%3E%5C %3C/g%3E%5C %3Cg class='style-scope yt-icon'%3E%5C %3Cg id='youtube-paths' class='style-scope yt-icon'%3E%5C %3Cpath fill='%23FFFFFF' d='m 86.367425,16.382245 h -9.87831 v 10.29539 h 7.18953 v 5.26083 h -7.18953 v 16.913853 h -5.84515 V 11.121414 h 15.72346 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23FFFFFF' d='m 102.97183,21.28 v 27.55 h -4.850035 l -0.54,-3.37 h -0.13 c -1.32,2.55 -3.3,3.82 -5.93,3.82 -1.83,0 -3.18,-0.6 -4.05,-1.8 -0.87,-1.2 -1.3,-3.07 -1.3,-5.62 V 21.28 h 6.2 v 20.23 c 0,1.23 0.13,2.11 0.4,2.63 0.27,0.52 0.72,0.79 1.35,0.79 0.54,0 1.06,-0.16 1.55,-0.49 0.49,-0.33 0.86,-0.75 1.1,-1.26 v -21.9 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23FFFFFF' d='m 116.44773,30.523703 q 0,-1.583906 0,-2.262723 0,-0.735385 -0.12744,-1.131361 -0.3186,-2.093019 -2.54879,-2.093019 -1.46556,0 -2.10275,0.961657 -0.6372,0.90509 -0.6372,2.94154 v 11.822726 q 0,3.903198 2.73995,3.903198 2.42135,0 2.61252,-2.884971 0.0637,-0.282842 0.0637,-1.074795 0,-0.84852 0,-2.03645 h 5.73479 v 1.301066 q 0,1.244497 -0.0637,2.149587 -0.0637,0.848521 -0.25489,1.583906 -0.12743,0.678816 -0.44603,1.301065 -0.25487,0.565681 -0.63719,1.131361 -1.08325,1.470771 -2.93113,2.319292 -1.78416,0.848521 -3.88691,0.848521 -2.03904,0 -3.88691,-0.791953 -1.84788,-0.791953 -2.99482,-2.09302 -0.95581,-1.187929 -1.40184,-2.658698 -0.38231,-1.527338 -0.38231,-3.959766 v -9.842844 q 0,-2.488995 0.38231,-3.959765 0.44603,-1.527338 1.40184,-2.715267 1.14694,-1.301065 2.99482,-2.093019 1.91159,-0.791953 3.95062,-0.791953 2.80367,0 4.90646,1.357634 2.16646,1.357634 2.86738,3.676924 0.25489,0.791953 0.3186,1.810179 0.0637,0.961657 0.0637,3.280948 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23FFFFFF' d='m 130.44423,31.481105 5.37754,-10.804502 h 5.31908 l -5.26063,9.3903 5.72824,18.724032 h -5.14373 l -3.68244,-13.067225 -2.33806,4.072902 v 8.994323 H 125.1836 V 11.060031 h 5.26063 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23FFFFFF' d='m 162.75236,48.03 c -1.24,-0.84 -2.13,-2.14 -2.65,-3.91 -0.52,-1.77 -0.79,-4.12 -0.79,-7.06 v -4 c 0,-2.97 0.3,-5.35 0.9,-7.15 0.6,-1.8 1.54,-3.11 2.81,-3.93 1.27,-0.82 2.94,-1.24 5.01,-1.24 2.04,0 3.67,0.42 4.9,1.26 1.23,0.84 2.13,2.15 2.7,3.93 0.57,1.78 0.85,4.16 0.85,7.12 v 4 c 0,2.94 -0.28,5.3 -0.83,7.08 -0.55,1.78 -1.45,3.09 -2.7,3.91 -1.24,0.82 -2.93,1.24 -5.06,1.24 -2.18,0.01 -3.9,-0.41 -5.14,-1.25 z m 6.97,-4.32 c 0.34,-0.9 0.52,-2.37 0.52,-4.4 v -8.59 c 0,-1.98 -0.17,-3.42 -0.52,-4.34 -0.34,-0.91 -0.95,-1.37 -1.82,-1.37 -0.84,0 -1.43,0.46 -1.78,1.37 -0.34,0.91 -0.52,2.36 -0.52,4.34 v 8.59 c 0,2.04 0.16,3.51 0.49,4.4 0.33,0.9 0.93,1.35 1.8,1.35 0.88,0 1.48,-0.45 1.83,-1.35 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23FFFFFF' d='m 147.65236,36.61 -7.06,-25.49 h 6.16 l 2.47,11.55 c 0.63,2.85 1.09,5.27 1.39,7.28 h 0.18 c 0.21,-1.44 0.67,-3.85 1.39,-7.24 l 2.56,-11.6 h 6.16 l -7.14,25.5 v 12.23 h -6.11 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3Cpath fill='%23FFFFFF' d='m 196.51236,21.28 v 27.55 h -4.85 l -0.54,-3.37 h -0.13 c -1.32,2.55 -3.3,3.82 -5.93,3.82 -1.83,0 -3.18,-0.6 -4.05,-1.8 -0.87,-1.2 -1.3,-3.07 -1.3,-5.62 V 21.28 h 6.2 v 20.23 c 0,1.23 0.13,2.11 0.4,2.63 0.27,0.52 0.72,0.79 1.35,0.79 0.54,0 1.06,-0.16 1.55,-0.49 0.49,-0.33 0.86,-0.75 1.1,-1.26 v -21.9 z' class='style-scope yt-icon'%3E%3C/path%3E%5C %3C/g%3E%5C %3C/g%3E%5C %3C/g%3E%3C/svg%3E") !important;
+            background-image: none !important;
+        }
+    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
@@ -867,912 +914,7 @@ background-color:#1d2021 !important;
 }
 		
 		
-		/*Reply bButton in comments */
-
-		.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
-    color: #8ec07c;
-}
-
-
 		
-
-		
-		/*Youtube Reply Button */
-		.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text {
-    color: #fe8019;
-}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-
-/*
-.yt-core-attributed-string--white-space-no-wrap {
-    white-space: nowrap;
-	
-color:#f57d26 !important;
-}
-	
-*/
-
-	
-	
-	
-/* ==UserStyle==
-@name           youtube.com - Jan 2024
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
-@description    A new userstyle
-@author         Me
-==/UserStyle== */
-
-@-moz-document domain("youtube.com") {
-	
-	
-	:root{
-    /* 0 is for darkest 
-    1 is for hard 
-    higher values for hard  */
-
-
-    /* 2.1 Dark theme color variables */
-    --bg0-dh:       #1d2021;
-    --bg1-dark:       #3c3836;
-    --bg-dark:        #282828;
-    --bg2-dark:       #504945;
-    --bg3-dark:       #665c54;
-    --bg4-dark:       #7c6f64;
-    --bg5-dark:       #928374;
-    --bg_visual:      #503946;
-    --bg_red:         #cc241d;
-    --bg_green:       #98971a;
-    --bg_blue:        #458588;
-    --bg_yellow:      #d79921;
-    --shadow:         #16181a;
-    --shadow-var1:         #17191b;
-    --shadow-cur:         #1a1b1d;
-
-    --fg-dark:        #ebdbb2;
-    --grey0-dark:     #7f897d;
-    --grey1-dark:     #859289;
-    --grey2-dark:     #9aa79d;
-
-    --faded-red:     #fb4934;
-    --faded-orange:  #fe8019;
-    --faded-yellow:  #fabd2f;
-    --faded-green:   #b8bb26;
-    --faded-aqua:    #8ec07c;
-    --faded-blue:    #83a598;
-    --faded-purple:  #d3869b;
-
-    --dim-red:       #cc241d;
-    --dim-orange:    #d65d0e;
-    --dim-yellow:    #d79921;
-    --dim-green:     #98971a;
-    --dim-aqua:      #689d6a;
-    --dim-blue:      #458588;
-    --dim-purple:    #b16286;
-
-
-    /* 2.2 Light theme color variables */
-    --bg0-light:     #f0edd8;
-    --bg1-light:     #f6f1dd;
-    --bg-light:      #fdf6e3;
-    --bg2-light:     #f3efda;
-    --bg3-light:     #edead5;
-    --bg4-light:     #e4e1cd;
-    --bg5-light:     #dfdbc8;
-    --grey0-light:   #a4ad9e;
-    --grey1-light:   #939f91;
-    --grey2-light:   #879686;
-    --shadow-light:  #3c474d20;
-
-
-    --text-offwhite: #fbf1c7;
-    --text-offyellowish: #f2e5bc;
-    --text-white: #f9f5d7;
-    --text-offwhite-faded: #ebdbb2;
-    --text--faded: #d5c4a1;
-    --text--veryfade: #928374;
-
-    
-
-    
-
-
-
-    --bg_visual_light:      #eaedc8;
-    --bg_red_light:         #fbe3da;
-    --bg_green_light:       #f0f1d2;
-    --bg_blue_light:        #e9f0e9;
-    --bg_yellow_light:      #faedcd;
-
-    --fg-light:       #5c6a72;
-
-    --light-red:     #f85552;
-    --light-orange:  #f57d26;
-    --light-yellow:  #bf983d;
-    --light-green:   #899c40;
-    --light-aqua:    #569d79;
-    --light-blue:    #5a93a2;
-    --light-purple:  #b87b9d;
-
-    --light-dim-red:    #f1706f;
-    --light-dim-orange: #f39459;
-    --light-dim-yellow: #e4b649;
-    --light-dim-green:  #a4bb4a;
-    --light-dim-aqua:   #6ec398;
-    --light-dim-blue:   #6cb3c6;
-    --light-dim-purple: #e092be;
-
-
-
- --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
-  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
-  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
-  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
-  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
-  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
-  --dark-orange: #af3a03;
-
-
-/* light colors */
-  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
-  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
-  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
-  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
-  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
-  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
-  --interface-light4: #a89988; /* light4: #a89988 */
-
-
-   
-}
-
-	
-	
-	
-	
-	
-	
-	
-		
-
-	
-	
-	
-	
-	
-	
-	
-	
-	/*Top search bar realated colors*/
-		/*search bar button styles*/
-
-	html[dark], [dark] {
-    --ytd-searchbox-border-color: hsla(0, 67%, 35%, .4);
-		/*search bar border color*/
-    --ytd-searchbox-legacy-border-color: #98971aab !important;
-		/*inner box shadow*/
-    /*--ytd-searchbox-legacy-border-shadow-color: #cc241d !important;*/
-		/*Search bar background*/
-    --ytd-searchbox-legacy-button-color: #16181a!important;
-		/*search bar icon  border*/
-    --ytd-searchbox-legacy-button-border-color: #98971a59 !important;
-		/*search bar icon color when clicked */
-    --ytd-searchbox-legacy-button-focus-color: #fb4934!important;
-		/*search bar hover color*/
-    --ytd-searchbox-legacy-button-hover-color: #79740e!important;
-		/*when seaarch botton is clicked the border color of icon */
-    --ytd-searchbox-legacy-button-hover-border-color: #fb4934~!important;
-    --ytd-searchbox-legacy-button-icon-color: #98971a!important;
-		/*Search bar background color*/
-    --ytd-searchbox-background: #16181a!important;
-		/*Text box search color of text*/
-    --ytd-searchbox-text-color: #fb4934!important;
-}
-	
-	/*When search box is focused*/
-	ytd-searchbox[has-focus] #container.ytd-searchbox {
-    border: 1px solid #fe8019c2 !important;
-    /*how much the search bar expands after you click on it*/
-    margin-left: 0;
-    padding: 2px 4px 2px 48px;
-}
-	
-	
-	/*used this to channge the color of the search caret button */
-	
-	#container.ytd-searchbox {
-   
-
-		/*modified the border radiys to make the search bar more rounder*/
-		/* it was 40 , 0 0 , 40 before */
-    border-radius: 40px 40px 40px 40px;
-   
-		/*search carret button*/
-    caret-color: #fb4934 !important;
- 
-}
-	
-	
-
-
-	/*search icon tweaks*/
-	/*tweaks to the way the search button looks */
-	
-		/* it was 0 , 40 ,  40 , 0 before */
-	#search-icon-legacy.ytd-searchbox {
-    border: 1px solid var(--dim-green);
-    background-color: #3c3836 !important;
-    border-radius: 40px 40px 40px 40px;
-    cursor: pointer;
-    height: 40px;
-    width: 60px;
-    margin: 0;
-}
-	
-	
-	
-	
-	/*All svgs on youtube UI */
-	svg{
-		color:#b8bb26fc !important;
-	
-	}
-	
-	
-	/*Links color */
-	a{
-color : #fb4934 !important ; 		
-	}
-	
-	/*links  hover*/
-	a:hover{
-		color: #b8bb26 !important;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*Recoomandation Page */
-	
-	/*Youtube video titles*/
-	/* video titles*/
-	
-	#video-title.ytd-rich-grid-media {
-    color: #b8bb26 !important;
-    font-family: "chivo",sans-serif !important;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    font-weight: 500;
-
-}
-	
-
-	
-
-			/*Name of Channel*/
-		
-		yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
-    color: #fb4934 !important;
-			
-}
-
-	
-/*yoututbe notification icons */
-	.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge {
-    background-color: #79740e;
-    color: #f9f5d7;
-}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*channel page */
-	/*any channel page */
-	
-			
-		/* Youtube channel name Font  */
-		#text.ytd-channel-name {
-   font-size: 15px !important;
-
-		}
-
-		/*Youtuber name handle , suscribers , videos nun*/
-		 .ytd-c4-tabbed-header-renderer
-		{
-			color:#98971a !important;
-			background-color:#000 !important;
-		}
-		
-	
-	/*Youtube video titles on creator page */
-	ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer {
-		color:#98971a !important;
-    font-family: "chivo" , sans-serif !important;
-    font-size: 1.4rem;
-    line-height: 1.3rem;
-    font-weight: 500;
-    
-}
-	/*hover for upper styles */
-	ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer:hover{
-   	color:#fb4934 !important;
-    font-family: "chivo" , sans-serif !important;
-    font-size: 1.4rem;
-    line-height: 1.3rem;
-    font-weight: 500;
-}
-
-	/*youtuber channel stats per video */
-	ytd-grid-video-renderer:not([inline-badges]) #metadata-line.ytd-grid-video-renderer span.ytd-grid-video-renderer {
-    display: inline-block;
-color:#d5c4a1 !important;
-}
-	
-	/*Youtube playlists */
-	ytd-shelf-renderer[modern-typography] #title.ytd-shelf-renderer {
-color:#689d6a !important;
-    font-family: "Chivo",sans-serif;
-    font-size: 1.9rem;
-    line-height: 2rem;
-    font-weight: 600;
-    overflow: hidden;
-    display: block;
-    max-height: 2.8rem;
-    -webkit-line-clamp: 1;
-    display: box;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-    white-space: normal;
-}
-	
-	
-	
-	/*Video Description */
-
-	.yt-core-attributed-string--link-inherit-color{
-		color:#d5c4a1 !important;
-	}
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*Video page description */
-	ytd-watch-metadata[description-collapsed] #description.ytd-watch-metadata{
-    background-color: #16181a !important;
-		
-}
-	
-	/*tiele and other things */
-	
-	.style-scope yt-formatted-string{
-		color:#98971a !important;
-	}
-	
-	/*Icon text on the video page */
-	.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
-    color: #8ec07c;
-    background-color: rgba(255,255,255,0.1);
-}
-	
-	/*title on the side bar*/
-	.style-scope .ytd-compact-video-renderer .style-scope .ytd-compact-video-renderer{
-		color:#b8bb26 !important;
-	}
-	/*youtube video s channel name on tgehe side */
-	#text.ytd-channel-name {
-color:#fb4934 !important;
-    font-size: 15px !important;
-}
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*styles realted to body */
-	
-	html[dark], [dark] {
-    --yt-spec-base-background: #16181a !important;
-		/*not sure what this menu is */
-    --yt-spec-raised-background: #d5c4a1!important;
-    --yt-spec-menu-background: #282828;
-		
-		/*not sure what this applies to */
-    --yt-spec-inverted-background: #98971a;
-		
-		/*categroy heading icosn base color */
-    --yt-spec-additive-background: #282828;
-		
-		/*color when the video is not loaded */
-    --yt-spec-outline: #16181a!important;
-    --yt-spec-shadow: #98971a!important;
-		
-		/*categry text backgournd color*/
-    --yt-spec-text-primary: #d5c4a1 !important;
-		
-		
-		/*view count front page */
-		/*days ago */
-		/*channel informatioin and countryu name first page*/
-    --yt-spec-text-secondary: #f57d26;
-		
-		/*text disabled*/
-    --yt-spec-text-disabled: #98971a;
-		
-    --yt-spec-text-primary-inverse: #030303;
-		
-		
-
-		/*category button active cell hover*/
-    --yt-spec-button-chip-background-hover: #16181a;
-		
-		
-		
-		/*warning box background and rating video styles*/
-    --yt-spec-brand-background-solid :#16181a !important;
-		
-		/*Not sure where these are applied leaving them as they are */
-		/* --yt-spec-wordmark-text: #cc241d!important;
-    --yt-spec-error-indicator: #9d0006;
-    --yt-spec-themed-blue: #9d0006;
-    --yt-spec-themed-green: #2ba640;
-    --yt-spec-ad-indicator: #00aaa7;
-    --yt-spec-themed-overlay-background: rgba(0,0,0,0.8);
-    --yt-spec-commerce-badge-background: #002d08;
-    --yt-spec-static-brand-red: #4e2929!important;;
-    --yt-spec-static-brand-white: #fff;
-    --yt-spec-static-brand-black: #212121;
-    --yt-spec-static-clear-color: rgba(255,255,255,0);
-    --yt-spec-static-clear-black: rgba(0,0,0,0);
-    --yt-spec-static-ad-yellow: #fbc02d;
-    --yt-spec-static-grey: #cc241d!important;
-		
-		
-   
-		
-    --yt-spec-static-overlay-background-solid: #151515;
-    --yt-spec-static-overlay-background-heavy: rgba(0,0,0,0.8);
-    --yt-spec-static-overlay-background-medium: rgba(0,0,0,0.6);
-    --yt-spec-static-overlay-background-medium-light: rgba(0,0,0,0.3);
-    --yt-spec-static-overlay-background-light: rgba(0,0,0,0.1);
-    --yt-spec-static-overlay-text-primary: #fff;
-    --yt-spec-static-overlay-text-primary-inverse: #030303;
-    --yt-spec-static-overlay-text-secondary: rgba(255,255,255,0.7);
-    --yt-spec-static-overlay-text-disabled: rgba(255,255,255,0.3);
-    --yt-spec-static-overlay-call-to-action: #3ea6ff;
-    --yt-spec-static-overlay-icon-active-other: #fff;
-    --yt-spec-static-overlay-icon-inactive: rgba(255,255,255,0.7);
-    --yt-spec-static-overlay-icon-disabled: rgba(255,255,255,0.3);
-    --yt-spec-static-overlay-button-primary: rgba(255,255,255,0.3);
-    --yt-spec-static-overlay-button-secondary: rgba(255,255,255,0.1);
-    --yt-spec-static-overlay-touch-response: #fff;
-    --yt-spec-static-overlay-touch-response-inverse: #000;
-    --yt-spec-static-overlay-background-brand: rgba(204,0,0,0.9);
-    --yt-spec-assistive-feed-themed-gradient-1: #005446;
-    --yt-spec-assistive-feed-themed-gradient-2: #39003f;
-    --yt-spec-assistive-feed-themed-gradient-3: #590000;
-    --yt-spec-discover-red: #fdf6e3;
-    --yt-spec-discover-green: #a4ffa4;
-    --yt-spec-discover-blue: #6ea2ff;
-		
-		
-    --yt-spec-brand-background-solid: #212121;
-    --yt-spec-brand-background-primary: rgba(33,33,33,0.98);
-    --yt-spec-brand-background-secondary: rgba(33,33,33,0.95);
-    --yt-spec-general-background-a: #181818;
-    --yt-spec-general-background-b: #0f0f0f;
-    --yt-spec-general-background-c: #030303;
-    --yt-spec-error-background: #f9f9f9;
-    --yt-spec-al-hover: rgba(255,255,255,0.2);
-    --yt-spec-commerce-tonal-hover: #515561;
-    --yt-spec-static-overlay-filled-hover: #e6e6e6;
-    --yt-spec-static-overlay-tonal-hover: rgba(255,255,255,0.2);
-    --yt-spec-paper-tab-10-percent-layer: rgba(255,255,255,0.1);
-    --yt-spec-snackbar-background: #030303;
-    --yt-spec-snackbar-background-updated: #f9f9f9;
-    --yt-spec-badge-chip-background: rgba(255,255,255,0.1);
-    --yt-spec-verified-badge-background: rgba(255,255,255,0.25);
-    --yt-spec-call-to-action-faded: rgba(62,166,255,0.3);
-    --yt-spec-call-to-action-hover: #6ebcff;
-    --yt-spec-brand-button-background-hover: #903f46;
-    --yt-spec-brand-link-text-faded: rgba(255,78,69,0.3);
-    --yt-spec-filled-button-focus-outline: rgba(255,255,255,0.7);
-    --yt-spec-static-overlay-button-hover: rgba(255,255,255,0.5);
-    --yt-spec-mono-filled-hover: #d9d9d9;
-    --yt-spec-commerce-filled-hover: #65b8ff;
-    --yt-spec-mono-tonink: rgba(255,255,255,0.3);
-    --yt-spec-filled-button-text: #030303;
-    --yt-spec-selected-nav-text: #fff;
-}
-		*/
-	
-		
-		
-		
-		
-		
-		
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/*Channel information styles */
-		
-		/*more about channel cards*/
-		
-		#about-container.ytd-about-channel-renderer {
-    flex: 2;
-    color: #d5c4a1 !important;
-		background-color:#16181a !important;
-    min-width: 0;
-    word-wrap: break-word;
-    max-height: 65vh;
-    --paper-dialog-scrollable-height: 100%;
-    --paper-dialog-scrollable-padding: 0;
-}
-		
-		#header.ytd-engagement-panel-title-header-renderer {
-    display: block;
-    padding: 4px 2px 4px 16px;
-    color: var(--yt-spec-text-primary);
-    background-color: #16181a ;
-    
-   
-}
-		
-		
-		ytd-engagement-panel-section-list-renderer[dialog][dialog] {
-			background-color: #16181a !important;
-    margin-top: 0;
-    padding-top: 0;
-}
-		
-
-		tp-yt-paper-dialog[modern] {
-   background-color:  #16181a !important;
-}
-		
-				ytd-section-list-renderer[engagement-panel-dialog][should-scroll-in-panel] #contents.ytd-section-list-renderer {
-			background-color: #16181a !important;
-    overflow-y: auto;
-}
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/*timer */
-		/*.ytp-timed-markers-container {
-			
-			background-color: #98971a !important;
-    -webkit-transform: scaleY(.6);
-    -ms-transform: scaleY(.6);
-    transform: scaleY(.6);
-    top: 1px;
-    z-index: 40;
-}
-		
-		*/
-
-
-		
-
-		
-		
-		
-		
-		
-
-
-.ytp-progress-linear-live-buffer {
-    z-index: 45;
-    background: #98971a !important;
-	color:#98971a !important;
-    opacity: 0;
-}
-		
-		/*youtube progress*/
-		/*Progress timer Line/ Bar*/
-/*how much video have loaded*/
-		.ytp-load-progress{
-			background: #427b58 !important;
-	color:#98971a !important;
-		}
-		
-		.ytp-play-progress{
-			background: #fe8019 !important;
-	color:#98971a !important;
-			
-		}
-		
-		
-		
-/* home , video and shorts tabs on the community		 */
-		
-		.yt-tab-shape-wiz__tab {
-    color: #d5c4a1;
-    font-family: "Roboto","Arial",sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    font-weight: 500;
-}
-			
-/* hover effect on this 		 */
-	.yt-tab-shape-wiz__tab:hover{
-    color: #fe8019;
-  
-}
-		
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/*Side bar*/
-		/*side bar styles*/
-		
-	/*Side bar tabs bar  */
-		tp-yt-paper-item {
-			color:#98971a !important;
-			background-color:#1d2021 !important;
-    --paper-item-min-height: 36px;
-    padding: 0 12px 0 16px;
-}
-		/*hover fpr side bar tabs */
-			
-		tp-yt-paper-item:hover {
-			color:#98971a !important;
-			background-color:#427b58 !important;
-    --paper-item-min-height: 36px;
-    padding: 0 12px 0 16px;
-}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-		
-
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/*Playlist header */
-		ytd-playlist-panel-renderer[collapsible] .header.ytd-playlist-panel-renderer {
-    padding: 12px 6px 0 16px;
-			
-background-color:#1d2021 !important;
-}
-		
-		
-		
-		
-				yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string:hover{
-    color: #fb4934 !important;
-			
-}
-		
-		
-		
-
-	
-		
-		
-		
-		
-		
-		/*warning box backgrond color */
-		
-		#star-survey.ytd-inline-survey-renderer {
-color:#98971a !important;
-background-color:#1d2021 !important;
-    max-width: 430px;
-    min-width: 430px;
-    padding-bottom: 32px;
-    padding-top: 8px;
-    flex: 2;
-}
-		
-		/*warning box top */
-		/*What did you think of this video*/
-		#title.ytd-inline-survey-renderer, #follow-up-title.ytd-inline-survey-renderer {
-    color: #98971a !important;
-    font-family: "Roboto","Arial",sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    font-weight: 500;
-    overflow: hidden;
-    display: block;
-    max-height: 4.4rem;
-    -webkit-line-clamp: 2;
-}
-		
-		/*heHelp improve */
-		/*warning box secondary text */
-		#subtitle.ytd-inline-survey-renderer {
-    color:#d5c4a1 !important;
-    font-family: "Roboto","Arial",sans-serif;
-    font-size: 1.4rem;
-    line-height: 2rem;
-    font-weight: 400;
-}
-		
-		
-		
-		
-		
-	
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-				
-		/*Youtube video page comment */
-		
-		#content-text.ytd-comment-renderer {
-    --yt-endpoint-color: var(--yt-spec-call-to-action);
-    --yt-endpoint-hover-color: var(--yt-spec-call-to-action);
-    --yt-endpoint-visited-color: var(--yt-spec-call-to-action);
-    color: #d5c4a1 !important;;
-    font-family: "Roboto","Arial",sans-serif;
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 2rem;
-    overflow-wrap: anywhere;
-}
 		
 		
 		/*Reply bButton in comments */
@@ -1780,14 +922,26 @@ background-color:#1d2021 !important;
 		.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
     color: #8ec07c;
 }
-
-
-		
-
 		
 		/*Youtube Reply Button */
 		.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text {
-    color: #fe8019;
+    color: #928374;
+}
+		
+		
+		
+		/*stroke color for the yt logo and more elelements*/
+		
+	yt-icon, .yt-icon-container.yt-icon {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    fill: #b8bb2600 !important;
+    stroke: #b8bb2652 !important;
+   
 }
 		
 		
@@ -1798,7 +952,30 @@ background-color:#1d2021 !important;
 		
 		
 		
-
+		
+	
+		
+		
+		/*messing with Youtube logo styles*/
+		/*youtube player extesnal logoss */
+		
+	/*	svg path {
+    fill: #d5c4a1 !important; /* This will change the fill color to blue */
+		
+	/*	stroke: #16181a !important;
+			stroke-width: 0.1px !important ; 
+}
+	*/
+		
+	/*
+.external-icon path {
+    fill: #ebdbb2d6 !important;
+	stroke : #665c54 !important;
+	stroke-width: 0.7px !important;
+	
+}
+		*/
+		
 		
 		
 
@@ -1833,24 +1010,4 @@ color:#f57d26 !important;
 	
 	
 	
-	}
-		
-		
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-}
-	
-	
-	
-	
-
 
