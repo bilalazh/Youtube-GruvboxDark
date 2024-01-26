@@ -492,9 +492,29 @@ color:#689d6a !important;
 	
 	
 	
+	
+	ytd-watch-metadata[title-headline-xs] h1.ytd-watch-metadata {
+		
+    font-family: "Chivo",sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
+    overflow: hidden;
+    display: block;
+    max-height: 5.6rem;
+    -webkit-line-clamp: 2;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
 
-	
-	
+
+	/*Youtube Video title */
+	yt-formatted-string.style-scope.ytd-watch-metadata{
+		color:#d5c4a1 !important;
+	}
 	
 	
 	
@@ -509,16 +529,40 @@ color:#689d6a !important;
 }
 	
 	/*Video categories*/
-	
+	/*this also applies to  other things as well*/
 	.style-scope yt-formatted-string{
-		color:#427b58 !important;
+		color:#356848 !important;
 	}
 	
 	/*Hover for the Video Category*/
 	.style-scope yt-formatted-string:hover{
-		color:#8ec07c !important;
+		color:#98971a !important;
 	}
 	
+	
+	/*Video page views and others in descripton */
+	.bold.yt-formatted-string:not(a) {
+    color: #98971a ;
+}
+	
+	
+	#owner-sub-count.ytd-video-owner-renderer {
+    color: #8ec07c !important;
+    margin-right: 4px;
+    font-family: "Chivo";
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    overflow: hidden;
+    display: block;
+    max-height: 1.8rem;
+    -webkit-line-clamp: 1;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
 	
 	
 	
@@ -551,7 +595,7 @@ color:#fb4934 !important;
 		.ytp-button .ytp-svg-fill{
     border: none;
     background-color: transparent;
-			fill: #b8bb26 !important;
+			fill: #bdae93 !important;
     padding: 0;
     color: inherit;
     text-align: inherit;
@@ -586,7 +630,7 @@ color:#fb4934 !important;
 .ytp-size-button svg path,
 .ytp-pip-button svg path , 
 	.ytp-subtitles-button.ytp-button svg path{
-  fill: #79740e !important;
+  fill: #d5c4a1 !important;
 }
 	
 /*Button colors hover change */
@@ -610,7 +654,7 @@ color:#fb4934 !important;
 	}
 	/*green sub label*/
 	div.ytp-menuitem-content{
-		color:#b8bb26 !important;
+		color:#98971a !important;
 	}
 	
 	
@@ -840,15 +884,17 @@ color:#fb4934 !important;
     --paper-dialog-scrollable-padding: 0;
 }
 		
+		
+		/*about section inside the channel show */
 		#header.ytd-engagement-panel-title-header-renderer {
     display: block;
     padding: 4px 2px 4px 16px;
-    color: var(--yt-spec-text-primary);
-    background-color: #16181a ;
+    color: #cc241d !important;
+    background-color: #1d2021 !important;
     
    
 }
-		
+		/*all of these are styles apply to creator*/
 		
 		ytd-engagement-panel-section-list-renderer[dialog][dialog] {
 			background-color: #16181a !important;
@@ -868,6 +914,8 @@ color:#fb4934 !important;
 		
 		
 	
+		
+		
 	
 		
 		
