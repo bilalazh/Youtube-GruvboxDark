@@ -531,7 +531,7 @@ color:#fb4934 !important;
 		.ytp-button .ytp-svg-fill{
     border: none;
     background-color: transparent;
-			fill: #79740e !important;
+			fill: #b8bb26 !important;
     padding: 0;
     color: inherit;
     text-align: inherit;
@@ -542,15 +542,39 @@ color:#fb4934 !important;
 }
 
 	
+	
+	/*Caption Icon */
+
+	/*
+	button.ytp-subtitles-button.ytp-button .ytp-subtitles-button-icon path {
+  fill: #98971a !important;
+}
+*/
+	
+
+	
+
+
+	/*Settings button , Picture in picture button  m settings , moni player , size button , subtitles button */
+
+/*All buttons in the lower corner*/
+	button.ytp-button svg path,
+.ytp-settings-button .ytp-hd-quality-badge svg path,
+.ytp-pip-button svg path,
+.ytp-settings-button svg path,
+.ytp-miniplayer-button svg path,
+.ytp-size-button svg path,
+.ytp-pip-button svg path , 
+	.ytp-subtitles-button.ytp-button svg path{
+  fill: #79740e !important;
+}
+	
+
 
 	
 	
 	
 	
-	
-
-	
-
 
 	
 	/*youtube video chapters color */
