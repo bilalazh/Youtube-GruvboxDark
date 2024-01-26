@@ -235,6 +235,38 @@
 }
 	
 	
+	
+	
+	/*Hacl*/
+	
+	yt-chip-cloud-chip-renderer[modern] {
+		background-color:#d5c4a1 !important;
+		
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+	
+		yt-chip-cloud-chip-renderer[modern]:hover{
+		background-color:#504945 !important;
+		
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 	/*search icon tweaks*/
@@ -587,7 +619,7 @@ color:#fb4934 !important;
 	/*Current video duration */
 /*Video you already watched*/
 	span.ytp-time-current{
-		color:#b8bb26 !important;
+		color:#8ec07c !important;
 	}
 	
 	/*video Time sepeartor*/
