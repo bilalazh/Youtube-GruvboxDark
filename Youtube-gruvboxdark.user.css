@@ -417,6 +417,16 @@ color:#689d6a !important;
 		color:#427b58 !important;
 	}
 	
+	/*Hover for the Video Category*/
+	.style-scope yt-formatted-string:hover{
+		color:#8ec07c !important;
+	}
+	
+	
+	
+	
+	
+	
 	/*Icon text on the video page */
 /*like  , share button */
 	.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
