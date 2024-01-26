@@ -1,4 +1,4 @@
-# Youtube Dark Gruvbox Style 
+**YouTube Gruvbox Dark**
 
 - motivation 
 - philosophy 
@@ -6,5 +6,5 @@
 
 
 # TODO:
-- make this more uniform 
-- Change player colors 
+- Test and polish the code 
+- Finalize it after a day of use 
