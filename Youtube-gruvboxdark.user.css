@@ -545,18 +545,6 @@ color:#fb4934 !important;
 	
 	
 	
-	/*full screen button */
-	
-	.ytp-settings-button .ytp-svg-fill{
-		
-		
-  fill: red !important; /* Change the color to your desired value */
-	}
-	
-	
-	.ytp-fullscreen-button .ytp-svg-fill {
-  fill: red !important; /* Change the color to your desired value */
-}
 
 	
 	/*Youtunbe setting play next sound buttons */
@@ -601,8 +589,29 @@ color:#fb4934 !important;
   fill: #79740e !important;
 }
 	
+/*Button colors hover change */
+	
+	button.ytp-button:hover svg path,
+.ytp-settings-button .ytp-hd-quality-badge:hover svg path,
+.ytp-pip-button:hover svg path,
+.ytp-miniplayer-button:hover svg path,
+.ytp-size-button:hover svg path,
+.ytp-subtitles-button.ytp-button:hover svg path {
+  fill: #fb4934 !important; /* Hover fill color */
+}
+	
+	
 
 
+	/*label inside side settings*/
+	div.ytp-menuitem-label{
+		color:#8ec07c !important;
+		
+	}
+	/*green sub label*/
+	div.ytp-menuitem-content{
+		color:#b8bb26 !important;
+	}
 	
 	
 	
@@ -635,31 +644,17 @@ color:#fb4934 !important;
 	}
 	
 	
-	#button{
-		color:black !important;
-		
-	}
 	
-	 .ytp-efyt-button{
-		color:black !important;
 	
-	}
-	
-	button#efyt-controls-button.ytp-button{
-		color:black !important;
 
-	}
 	
-.ytp-chrome-bottom {
-    bottom: -6px !important;
-    height: 49px;
-    width: 170%;
-    z-index: 50 !important;
-    padding-top: 1px;
-    text-align: left;
-    direction: ltr;
-}
 	
+	
+	
+	
+	
+	
+
 	/*seperatior in the buttons menu*/
 	.ytp-button:not([aria-disabled=true]):not([disabled]):not([aria-hidden=true]) {
 		color:#689d6a !important ; 
@@ -668,18 +663,16 @@ color:#fb4934 !important;
 
 	
 	
-	.ytp-button {
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    color: inherit;
-    text-align: inherit;
-    font-size: 100%;
-    font-family: inherit;
-    cursor: default;
-    line-height: inherit;
+	/*Buttons Suscribe , Likes And share*/
+.yt-spec-button-shape-next--size-m {
+	color:#d5c4a1 !important;
+	background-color:#282828 !important;
+    padding: 0 16px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    border-radius: 18px;
 }
-
 
 
 	
