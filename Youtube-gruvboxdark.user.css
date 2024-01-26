@@ -133,11 +133,50 @@
 	
 	
 	
-	
-	
-	
-		
 
+	
+	
+/*Youtube search recoomandations*/
+	/*Youtube search suggestions*/
+
+	div.sbsb_a{
+	
+		background-color:#d5c4a1 !important;
+	}
+	
+	div.sbqs_c{
+		color:#427b58 !important;
+	}
+	
+	
+	
+	
+	
+	
+	/*time of video */
+	/*How long a video is */
+	#time-status.ytd-thumbnail-overlay-time-status-renderer {
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline-flexbox;
+    display: inline-flex;
+    color: #ebdbb2 ;
+    background-color: #356848 !important;
+    padding: 3px 4px;
+    height: 12px;
+    border-radius: 4px;
+    font-size: var(--yt-badge-font-size,1.36rem);
+    font-weight: 600;
+    line-height: var(--yt-badge-line-height-size,1.2rem);
+    letter-spacing: var(--yt-badge-letter-spacing,unset);
+    letter-spacing: var(--yt-badge-letter-spacing,.5px);
+}
+	
+	
+	
+	
 	
 	
 	
@@ -205,6 +244,16 @@
 	#search-icon-legacy.ytd-searchbox {
     border: 1px solid var(--dim-green);
     background-color: #3c3836 !important;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+    margin: 0;
+}
+	/*tweaks search button icon and hover*/
+		#search-icon-legacy.ytd-searchbox:hover{
+    border: 1px solid #427b58 ;
+    background-color: #1d2021 !important;
     border-radius: 40px 40px 40px 40px;
     cursor: pointer;
     height: 40px;
@@ -280,6 +329,22 @@ color : #fb4934 !important ;
 			
 }
 
+	
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 /*yoututbe notification icons */
 	.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge {
@@ -725,7 +790,11 @@ color:#fb4934 !important;
 		}
 		
 		
-		
+		/*videos in the side bar progress bar */
+		#progress.ytd-thumbnail-overlay-resume-playback-renderer {
+    background-color: #fb4934 !important;
+    height: 100%;
+}
 		
 		
 		
@@ -1075,5 +1144,4 @@ color:#f57d26 !important;
 	
 	
 	
-
 
