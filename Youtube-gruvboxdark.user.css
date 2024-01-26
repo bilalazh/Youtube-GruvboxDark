@@ -513,6 +513,7 @@ color:#fb4934 !important;
 	
 	
 	
+	/*full screen button */
 	
 	.ytp-settings-button .ytp-svg-fill{
 		
@@ -524,27 +525,107 @@ color:#fb4934 !important;
 	.ytp-fullscreen-button .ytp-svg-fill {
   fill: red !important; /* Change the color to your desired value */
 }
+
 	
+	/*Youtunbe setting play next sound buttons */
+		.ytp-button .ytp-svg-fill{
+    border: none;
+    background-color: transparent;
+			fill: #79740e !important;
+    padding: 0;
+    color: inherit;
+    text-align: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    cursor: default;
+    line-height: inherit;
+}
+
+	
+
+	
+	
+	
+	
+	
+
 	
 
 
 	
+	/*youtube video chapters color */
+	div.ytp-chapter-title-content{
+		color:#b8bb26 !important;
+	}
 	
 	
 	
+	/*Current video duration */
+/*Video you already watched*/
+	span.ytp-time-current{
+		color:#b8bb26 !important;
+	}
+	
+	/*video Time sepeartor*/
+	span.ytp-time-separator{
+		color:#fabd2f !important;
+		
+	}
+	
+	/*total Time of video */
+/*Total video duration */
+	span.ytp-time-duration{
+		color:#fb4934 !important;
+	}
 	
 	
+	#button{
+		color:black !important;
+		
+	}
+	
+	 .ytp-efyt-button{
+		color:black !important;
+	
+	}
+	
+	button#efyt-controls-button.ytp-button{
+		color:black !important;
+
+	}
+	
+.ytp-chrome-bottom {
+    bottom: -6px !important;
+    height: 49px;
+    width: 170%;
+    z-index: 50 !important;
+    padding-top: 1px;
+    text-align: left;
+    direction: ltr;
+}
+	
+	/*seperatior in the buttons menu*/
+	.ytp-button:not([aria-disabled=true]):not([disabled]):not([aria-hidden=true]) {
+		color:#689d6a !important ; 
+    cursor: pointer;
+}
+
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	.ytp-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+    text-align: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    cursor: default;
+    line-height: inherit;
+}
+
+
+
 	
 	
 	
@@ -779,12 +860,12 @@ color:#fb4934 !important;
 		/*Progress timer Line/ Bar*/
 /*how much video have loaded*/
 		.ytp-load-progress{
-			background: #79740e !important;
-	color:#f2e5bc !important;
+			background: #d5c4a1 !important;
+	
 		}
 		
 		.ytp-play-progress{
-			background: #fb4934 !important;
+			background: #356848 !important;
 	color:#d79921 !important;
 			
 		}
