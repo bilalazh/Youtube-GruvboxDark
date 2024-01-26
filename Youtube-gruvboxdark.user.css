@@ -414,7 +414,7 @@ color:#689d6a !important;
 	/*Video categories*/
 	
 	.style-scope yt-formatted-string{
-		color:#c77e0c !important;
+		color:#427b58 !important;
 	}
 	
 	/*Icon text on the video page */
@@ -439,12 +439,20 @@ color:#fb4934 !important;
 	
 	
 	
+	.ytp-settings-button .ytp-svg-fill{
+		
+		
+  fill: red !important; /* Change the color to your desired value */
+	}
+	
+	
+	.ytp-fullscreen-button .ytp-svg-fill {
+  fill: red !important; /* Change the color to your desired value */
+}
+	
 	
 
-	
-	
-	
-	
+
 	
 	
 	
@@ -655,12 +663,7 @@ color:#fb4934 !important;
 		
 		
 	
-		
-		
-		
-		
-		
-		
+	
 		
 		
 		
@@ -692,8 +695,8 @@ color:#fb4934 !important;
 
 .ytp-progress-linear-live-buffer {
     z-index: 45;
-    background: #fb4934 !important;
-	color:#cc241d !important;
+    background: #b8bb26 !important;
+	color:#98971a !important;
     opacity: 0;
 }
 		
@@ -702,11 +705,11 @@ color:#fb4934 !important;
 /*how much video have loaded*/
 		.ytp-load-progress{
 			background: #79740e !important;
-	color:#79740e !important;
+	color:#f2e5bc !important;
 		}
 		
 		.ytp-play-progress{
-			background: #d5c4a1 !important;
+			background: #fb4934 !important;
 	color:#d79921 !important;
 			
 		}
@@ -1050,14 +1053,14 @@ color:#f57d26 !important;
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
 }
+	
+	
+	
+	
+	
+	
+
 	
 	
 	
