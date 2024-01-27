@@ -1,4 +1,3 @@
-	
 	/* ==UserStyle==
 	@name           youtube.com - Jan 2024
 	@namespace      github.com/openstyles/stylus
@@ -473,7 +472,7 @@
 		max-height: 2.8rem;
 		-webkit-line-clamp: 1;
 	
-		display: -webkit-box;
+
 		-webkit-box-orient: vertical;
 		text-overflow: ellipsis;
 		white-space: normal;
@@ -500,11 +499,7 @@
 		display: block;
 		max-height: 5.6rem;
 		-webkit-line-clamp: 2;
-		display: box;
-		display: -webkit-box;
-		-webkit-box-orient: vertical;
-		text-overflow: ellipsis;
-		white-space: normal;
+	
 	}
 
 
@@ -1335,6 +1330,7 @@
 
 
 	}
+
 
 
 
