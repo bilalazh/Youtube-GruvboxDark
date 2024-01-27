@@ -156,12 +156,9 @@
 		/*time of video */
 		/*How long a video is */
 		#time-status.ytd-thumbnail-overlay-time-status-renderer {
-		display: flexbox;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		display: inline-flexbox;
-		display: inline-flex;
+		
+		
+		
 		color: #ebdbb2 ;
 		background-color: #356848 !important;
 		padding: 3px 4px;
@@ -256,7 +253,6 @@
 		line-height: 2rem;
 		font-weight: 500;
 	}
-
 
 
 
@@ -475,7 +471,7 @@
 		display: block;
 		max-height: 2.8rem;
 		-webkit-line-clamp: 1;
-		display: box;
+	
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
 		text-overflow: ellipsis;
@@ -496,7 +492,7 @@
 		ytd-watch-metadata[title-headline-xs] h1.ytd-watch-metadata {
 
 		font-family: "Chivo",sans-serif;
-		font-size: 2rem;
+		font-size: 1.6rem;
 		line-height: 3rem;
 		font-weight: 500;
 		overflow: hidden;
@@ -511,13 +507,10 @@
 	}
 
 
-		/*Youtube Video title */
-		yt-formatted-string.style-scope.ytd-watch-metadata{
-			color:#d5c4a1 !important;
-		}
 
 
-
+		
+		
 
 
 
@@ -531,7 +524,7 @@
 		/*Video categories*/
 		/*this also applies to  other things as well*/
 		.style-scope yt-formatted-string{
-			color:#356848 !important;
+			color:#cc241d !important;
 		}
 
 		/*Hover for the Video Category*/
@@ -546,22 +539,19 @@
 	}
 
 
+		/*Youtube creator video page sub count */
 		#owner-sub-count.ytd-video-owner-renderer {
-		color: #8ec07c !important;
+		color: #fe8019 !important;
 		margin-right: 4px;
 		font-family: "Chivo";
 		font-size: 1.2rem;
-		line-height: 1.8rem;
+		line-height: 1.1rem;
 		font-weight: 400;
 		overflow: hidden;
 		display: block;
 		max-height: 1.8rem;
 		-webkit-line-clamp: 1;
-		display: box;
-		display: -webkit-box;
-		-webkit-box-orient: vertical;
-		text-overflow: ellipsis;
-		white-space: normal;
+
 	}
 
 
@@ -953,6 +943,23 @@
 			*/
 
 
+			
+			
+/* 			 confirmation when unsuscribing */
+			yt-confirm-dialog-renderer[dialog][dialog][dialog] {
+    --divider-color: var( --yt-spec-10-percent-layer );
+    background: #17191b !important;
+    margin: 0;
+    max-width: 680px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+			
+			.style-scope .yt-notification-action-renderer{
+				background-color: #d5c4a1 !important ; 
+			}
+
 
 
 
@@ -1327,7 +1334,6 @@
 
 
 	}
-
 
 
 
