@@ -24,6 +24,8 @@ if you want to use it everywhere [Install This Style To Get This Font Everywhere
 
 ## Prerequisites <a name="Pre"></a>
 Theme works with either Light or Dark Theme enabled (Some areas may differ between light and dark modes)
+*Consider using Dark mode when usig this theme ( This makes sure all the edge cases are covered in case there is some pop up or  some sub menu was not properly overidden*
+
 
 ----------------------------------------------------------------------
 ## _Important:_
