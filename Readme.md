@@ -66,21 +66,16 @@ There are few extensions i use to change how Youtube is displayed or functions
 - Youtube Comments Search ( Quickly look for something related to video in comments -> comes in cluth sometimes ) 
 
 
-#### Front page single cell view 
+#### Reccomendations Page 
 
 
-![Front big screenshots](https://github.com/bilalazh/Goolge-Colab-GruvboxDark/assets/139261053/34d66f13-ca19-44f2-a6e8-64c45539b3df)
+#### Video Page
 
 
-#### Multiple cells preview
+#### Comments 
 
 
-
-![Preview with multiple cells](https://github.com/bilalazh/Goolge-Colab-GruvboxDark/assets/139261053/8c2502c6-f93f-4867-8290-04d7dfeaa1ed)
-
-
-
-
+#### Creator profile 
 
 
 
