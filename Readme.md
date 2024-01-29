@@ -59,6 +59,10 @@ Two right next to the icon shows that there are two styles active for the websti
 >When  you go to google Colab website you should see a 1 next to the extension icon 
 ## Screenshot <a name="screenshot"></a>
 
+There are few extensions i use to change how Youtube is displayed 
+- Youtube Enhancer (For better Viewport size)
+
+
 #### Front page single cell view 
 
 
