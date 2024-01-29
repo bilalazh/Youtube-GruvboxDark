@@ -245,8 +245,10 @@
 		font-weight: 500;
 	}
 
+		
+/*Youtujbe channel cateory chip color  		 */
 			yt-chip-cloud-chip-renderer[modern]:hover{
-			background-color:#504945 !important;
+			background-color:#fdf6e3 !important;
 
 		font-family: "Roboto","Arial",sans-serif;
 		font-size: 1.4rem;
@@ -1175,7 +1177,7 @@ this was only  working there*/
 
 
 
-
+hover
 
 
 
@@ -1384,6 +1386,7 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 
 
 	}
+
 
 
 
