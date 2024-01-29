@@ -52,6 +52,10 @@ Enjoy using the style!
 Two right next to the icon shows that there are two styles active for the webstite you are using right now
 ![image](https://github.com/bilalazh/Google-Chivo-Font-On-every-website-/assets/139261053/a0c78478-203e-48fe-a1e2-98ff0aa8fff0)
 
+> You can disable style from this menu as well if need be 
+
+
+
 >When  you go to google Colab website you should see a 1 next to the extension icon 
 ## Screenshot <a name="screenshot"></a>
 
