@@ -44,6 +44,8 @@ To install the style, go to this [LINK HERE](INSERT LINK HERE) and follow the in
 
 Click on the `install style` to confirm your installation.
 
+Naviagte to [Youtube](www.youtube.com) and you should see better colors 
+
 Enjoy using the style!
 ------------------------------
 
