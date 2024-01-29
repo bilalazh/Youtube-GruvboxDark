@@ -1,4 +1,5 @@
 
+	
 	/* ==UserStyle==
 	@name           youtube.com - Jan 2024
 	@namespace      github.com/openstyles/stylus
@@ -1341,8 +1342,21 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 			}
             
             
+/* Number of chaoters in a Youtube video playlist			 */
+			.style-scope  , .ytd-expandable-metadata-renderer{
+				color: #d5c4a1 !important
+			}
 
-
+/* Youtube video chatper list description  */
+			.style-scope.ytd-expandable-metadata-renderer{
+				color:  #8ec07c !important ; 
+			}
+			
+			
+			
+			
+			
+			
 			/*messing with Youtube logo styles*/
 			/*youtube player extesnal logoss */
 
