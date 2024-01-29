@@ -1,4 +1,3 @@
-
 	/* ==UserStyle==
 	@name           youtube.com - Jan 2024
 	@namespace      github.com/openstyles/stylus
@@ -1353,6 +1352,32 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 			
 			
 			
+/* 		My setup specific config				 */
+/*This is for this plugin i was using at the time of makign this theme where it replaces your normal comments on youtueb with reddit commnets  			 */
+		p 	{
+				color : #ebdbb2 !important; 
+			}
+			
+/* 		Reddit commemnts filtering 	 */
+			.css-1npz02u {
+
+    background: #356848 !important;
+    color: #ebdbb2 !important;
+    
+}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			
@@ -1399,7 +1424,6 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 
 
 	}
-
 
 
 
