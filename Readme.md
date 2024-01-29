@@ -12,9 +12,11 @@
 This user style applies the  gruvbox theme to  [Youtube](https://www.youtube.com) 
 
 - Imrpoved Gruvbox inpsired Dark theme for ``Youtube`` 
-- reduce eyestrain  -> Makes it easy to read comments 
-- Customized colors for Code blocks (customized for python like syntax)
-- Applies on both Light and Dark Mode
+- Reduce eyestrain  -> Makes it easy to read comments 
+- Better colors to distinguish between titles and description of videos 
+- Very stylized -> Some design and style choices are maded to gruvboxify the whole UI 
+- Better fonts -> This will look great with Chivo Font (Chivo Font is included with the style ) 
+if you want to use it everywhere [Install This Style To Get This Font Everywhere]
 
 
 
