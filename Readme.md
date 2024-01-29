@@ -83,4 +83,5 @@ There are few extensions i use to change how Youtube is displayed or functions
 
 - Check theme before uplaoding to user styles 
 - Upload screenshots 
-- Upload screenshots 
+- Making sure theme is stable and applies to everything 
+(confidence score = 80 percent ) 
