@@ -38,7 +38,7 @@ Theme works with either Light or Dark Theme enabled (Some areas may differ betwe
 
 
 
-To install the style, go to this [LINK HERE](https://userstyles.world/style/12183/google-bard-gruvbox-dark-theme-enable-dark-mode)) and follow the instructions to install this style. 
+To install the style, go to this [LINK HERE](INSERT LINK HERE) and follow the instructions to install this style. 
 
 
 
