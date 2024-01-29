@@ -1,3 +1,4 @@
+
 	/* ==UserStyle==
 	@name           youtube.com - Jan 2024
 	@namespace      github.com/openstyles/stylus
@@ -336,6 +337,7 @@
 
 		/*Youtube video titles*/
 		/* video titles*/
+        
 
 		#video-title.ytd-rich-grid-media {
 		color: #b8bb26 !important;
@@ -353,7 +355,7 @@
 /*Name of the channel */
 			yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
 		color: #fb4934 !important;
-                font-family: "Chivo Mono" !important;
+                font-family: "Chivo Mono" , "Arial" ,  !important;
 
 	}
 
@@ -512,8 +514,8 @@ this was only  working there*/
 /*Youtube video page title font and other styles*/
 		ytd-watch-metadata[title-headline-xs] h1.ytd-watch-metadata {
 
-		font-family: "FiraMono Nerd Font Mono"   !important;
-		font-size: 1.7rem;
+		font-family: "Chivo Mono" , "Chivo" , "Arial"   !important;
+		font-size: 1.6rem;
 		line-height: 1.7rem;
 		font-weight: 400;
 		overflow: hidden;
@@ -1325,7 +1327,16 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 .style-scope yt-formatted-string {
     color: #356848 !important;
 }
-            
+           
+			
+			
+			
+/* Front page side bar styles 			 */
+/*  reccomandation page side bar channel names color */
+			.title  , .style-scope   .ytd-guide-entry-renderer{
+				color: #d5c4a1 !important ; 
+				
+			}
             
             
 
@@ -1373,7 +1384,6 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 
 
 	}
-
 
 
 
