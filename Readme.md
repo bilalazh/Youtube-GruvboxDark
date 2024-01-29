@@ -81,6 +81,6 @@ There are few extensions i use to change how Youtube is displayed or functions
 
 #### TODOs : 
 
-- Check the Syntax highlighting for R and other languages
-- Check other places where the theme may not be applied 
-- chamge colors is need be 
+- Check theme before uplaoding to user styles 
+- Upload screenshots 
+- Upload screenshots 
