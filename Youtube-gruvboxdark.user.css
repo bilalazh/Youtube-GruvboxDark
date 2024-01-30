@@ -294,10 +294,10 @@
 		border-radius: 40px 40px 40px 40px;
 		cursor: pointer;
 		height: 40px;
-		width: 70px;
+		width: 62px;
 		margin: 0;
 /*Added fade animation  				 */
-				animation: fadeIn 0.3s;
+				animation: fadeIn 0.6s;
 	}
 
 
@@ -312,13 +312,19 @@
 		
 		
 		
+		
+		
+		
+		
+					/* SVGS */
 
-
-		/*All svgs on youtube UI */
+		/*All svgs on  UI */
 		svg{
 			color:#79740e !important;
 
 		}
+		
+		
 
 
 		/*Links color */
