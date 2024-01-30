@@ -558,53 +558,106 @@
 		color: #98971a !important ; 
 		}
 
+		
+		
+		
+		/*Youtube Video page description subs */
+		yt-formatted-string#owner-sub-count.style-scope.ytd-video-owner-renderer{
+
+		color:#fe8019 !important;
+			font-family: "Chivo" , "Arial"  , sans-serif !important ; 
+			font-size: 1.3rem ; 
+		
+		}
+		
+		
+		
+		
+
 
 	
-
-
-		/*Youtube creator video page sub count */
-		#owner-sub-count.ytd-video-owner-renderer {
-		color: #fe8019 !important;
-		margin-right: 3px;
-		font-family: "Chivo";
-		font-size: 1.3rem;
-		line-height: 1.2rem;
-		font-weight: 400;
-		overflow: hidden;
-		display: block;
-		max-height: 1.8rem;
-		-webkit-line-clamp: 1;
-
-	}
-
 
 
 
 
 		/*Icon text on the video page */
 	/*like  , share button */
+		
 		.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal {
-		color: #79740e;
+		color: #fe8019;
 			font-size: 14px !important ; 
-			font-weight : 600 ; 
-		background-color: rgba(255,255,255,0.1);
-	}
+			font-weight : 600; 
+	font-family: "Chivo" , "Arial"  , sans-serif !important ; 
 
-		/*title on the side bar*/
+		background-color: #1d2021!important;
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		/*Video TitleUNder video page */
+		
 		.style-scope .ytd-compact-video-renderer .style-scope .ytd-compact-video-renderer{
-			color:#b8bb26 !important;
+			color:#98971a !important;
+	font-family: "Chivo" , "Arial"  , sans-serif !important ; 	
+			font-size: 1.35rem !important ; 
 		}
-		/*youtube video s channel name on tgehe side */
+		
+		
+		/*VIdeo ddescription sidebar channel title */
 		#text.ytd-channel-name {
 	color:#fb4934 !important;
-		font-size: 15px !important;
+		font-family: "Chivo" , "Arial"  , sans-serif !important ; 
+			font-weight:600 !important ; 
+		font-size: 13px !important;
 	}
 
 
 
+		
+		/*Recommendation side bar under description */
+		
+		
+		/*NEW video button */
+		div.badge.badge-style-type-simple.style-scope.ytd-badge-supported-renderer.style-scope.ytd-badge-supported-renderer{
+			
+			/*new color not in the roor colors */
+			background-color:#264b34 !important;
+			
+		}
+		
+		/*New Button Font changes n*/
+		
+		p.style-scope , .ytd-badge-supported-renderer{
+			
+font-family: "Chivo" , "Arial"  , sans-serif !important ; 
+			font-size: 1.4rem !important ; 
+			border-radius: 6px !important ; 
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 		/*Youtunbe setting play next sound buttons */
+		
 			.ytp-button .ytp-svg-fill{
 		border: none;
 		background-color: transparent;
