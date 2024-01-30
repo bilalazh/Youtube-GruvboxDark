@@ -803,13 +803,31 @@
 				/*REC PAGE FIRST VIDEO CATEGORY CHIP*/
 			--yt-spec-text-primary: #eaedc8 !important;
 
+				
+				/*YOU ARE OFFLINE TeXT */
+				yt-formatted-string.promo-body-text.style-scope.ytd-background-promo-renderer{
+					color:#98971a !important;
+					font-family: "chivo" , sans-serif !important ; 
+					font-size : 1.4rem !important ; 
+					line-height: 0.1px !important ; 
+				}
 
+				
+				/*RETRY BUTTOM */
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--outline {
 	
+color:#356848 !important;
+	background-color:#ebdbb2 !important;
+				
+				}	
 
-				/*text disabled*/
-			--yt-spec-text-disabled: #98971a;
+				/*TEXT DISABLED*/
+			--yt-spec-text-disabled: #d3869b!important;
 
-			--yt-spec-text-primary-inverse: #fb4934 !important;
+				
+				/*Reduntant for now */
+				/*--yt-spec-text-primary-inverse: #fb4934 !important;*/
+			
 
 
 
