@@ -168,18 +168,7 @@
 		
 		
 
-	/*Youtube search recoomandations*/
-		/*Youtube search suggestions*/
-
-		div.sbsb_a{
-
-			background-color:#356848 !important;
-		}
-
-		div.sbqs_c{
-			color:#ebdbb2 !important;
-		}
-
+	
 
 
 
@@ -195,10 +184,10 @@
 		
 		
 		
-/* 	Input text buffer */
-
+/* 	Input text Bar on the top  */
+/* Wroking well syles are functional 		 */
 	/*Top search bar realated colors*/
-			/*search bar button styles*/
+/*search bar button styles*/
 
 		html[dark], [dark] {
 		--ytd-searchbox-border-color: hsla(0, 67%, 35%, .4);
@@ -233,7 +222,6 @@
 
 
 		
-
 /*Youtube saerch box button when  the search bar is clicked  		 */
 		ytd-searchbox[has-focus] #container.ytd-searchbox {
     border: 1px solid #fb4934;
@@ -245,22 +233,38 @@
 		
 		
 		
-		
-		
-		
-		
+		/*Youtube search recoomandations*/
+		/*Youtube search suggestions*/
+
+		div.sbsb_a{
+
+			background-color:#356848 !important;
+		}
+
+		div.sbqs_c{
+			color:#ebdbb2 !important;
+		}
+
 		
 		
 		
 		
 
 
+		
+		
+		
 
 
 
 
 	
 
+		
+		
+		
+		
+		
 
 		/*used this to channge the color of the search caret button */
 
@@ -272,35 +276,19 @@
 		border-radius: 40px 40px 40px 40px;
 
 			/*search carret button*/
+					
+ 
 		caret-color: #fb4934 !important;
+	
+			
 
 	}
 
-
-
-
-		/*Hacl*/
-
-		.yt-chip-cloud-chip-renderer[modern] {
-			background-color:#d5c4a1 !important;
-
-		font-family: "Chivo","Arial",sans-serif;
-		font-size: 1.4rem;
-		line-height: 2rem;
-		font-weight: 500;
-	}
 
 		
-/*Youtujbe channel cateory chip color  		 */
-			.yt-chip-cloud-chip-renderer[modern]:hover{
-			background-color:#fdf6e3 !important;
+		
 
-		font-family: "Roboto","Arial",sans-serif;
-		font-size: 1.4rem;
-		line-height: 2rem;
-		font-weight: 500;
-	}
-
+		
 
 
 
