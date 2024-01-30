@@ -326,16 +326,12 @@
 		
 		
 
-
-		/*Links color */
-		a{
-	color : #fb4934 !important ; 		
-		}
-
-		/*links  hover*/
-		a:hover{
-			color: #b8bb26 !important;
-		}
+		
+		
+		
+		
+		
+		
 
 
 
@@ -359,38 +355,58 @@
 
 
 
-
-
-		/*Recoomandation Page */
-
+		/*RECOMMENDATION PAGE */
+		/* ALGORITHM PAGE 		 */
+		
+		
+		
+		
 		/*Youtube video titles*/
 		/* video titles*/
-        
-
 		#video-title.ytd-rich-grid-media {
-		color: #b8bb26 !important;
+		color: #98971a !important;
 		font-family: "chivo",sans-serif !important;
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 		line-height: 1.6rem;
 		font-weight: 500;
 
 	}
-
-
-
-
-				/*Name of Channel*/
-/*Name of the channel */
-			.yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+		
+/* 	Hover for video titles 	 */
+			#video-title.ytd-rich-grid-media:hover{
 		color: #fb4934 !important;
-                font-family: "Chivo Mono" , "Arial" ,  !important;
+		font-size: 1.5rem;
+	
+	
 
 	}
 
 
+		
+		
+		
+		
 
 
+				/*Name of Channel*/
+			
+		/*Name of the channel  on recommandation page */
+		a.yt-simple-endpoint.style-scope.yt-formatted-string{
+				color: #fb4934 !important;
+                font-family: "chivo" , sans-serif !important;
+			font-size: 1.4rem;
+			
+		line-height: 1.3rem;
+		}
 
+			/* Hover 	for channel name on recommandation page 	 */
+	a.yt-simple-endpoint.style-scope.yt-formatted-string:hover{
+				color: #8ec07c !important;
+                font-family: "chivo" , sans-serif !important;
+			font-size: 1.4rem;
+			
+		line-height: 1.3rem;
+		}
 
 
 
@@ -1453,6 +1469,56 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 				background-color : #356848 !important ; 
 					border-radius: 12px  !important ; 
 			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			/* 	LINKS 	 */
+		/* 	LINKS HOVER	 */
+	
+/* Not working 		 */
+		/*Links color */
+		a.yt-simple-endpoint .style-scope .ytd-about-channel-renderer{
+	color : #fb4934 !important ; 		
+		}
+
+		/*links  hover*/
+		a:hover{
+			color: #b8bb26 !important;
+		}
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 
