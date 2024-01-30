@@ -302,7 +302,16 @@
 
 
 		
-		
+		/*Youtube Bell icon style */
+		.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge {
+		background-color: #79740e;
+		color: #ebdbb2;
+	}
+/* Bell icon hover 		 */
+	.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge:hover{
+		background-color: #fb4934;
+		color: #ebdbb2;
+	}
 		
 		
 		
@@ -400,6 +409,7 @@
 		}
 
 			/* Hover 	for channel name on recommandation page 	 */
+		
 	a.yt-simple-endpoint.style-scope.yt-formatted-string:hover{
 				color: #8ec07c !important;
                 font-family: "chivo" , sans-serif !important;
@@ -419,42 +429,9 @@
 
 
 
-	/*yoututbe notification icons */
-		.yt-spec-icon-badge-shape--type-notification .yt-spec-icon-badge-shape__badge {
-		background-color: #79740e;
-		color: #f9f5d7;
-	}
 
 
-
-	/*Subscription and explore titles in the side bar */
-		.style-scope .ytd-guide-section-renderer{
-			color:#d5c4a1 !important;
-		}
-
-
-
-
-	   /*Youtube Side bar links color*/
-		.title.ytd-guide-entry-renderer{
-			color:#ebdbb2 !important;
-	font-family: "chivo" !important;
-			font-size: 13px !important; 
-
-		}
-
-
-		/*Youtube coutnry icon -> hidden kind of */
-
-		.style-scope .ytd-topbar-logo-renderer{
-
-			/*setting the opacity to zero because i dont want to see this*/
-			/*opacity is working universally so making it black instead */
-
-
-			color:#16181a !important;
-
-		}
+	
 
 
 
@@ -463,53 +440,62 @@
 
 
 
-		/*channel page */
-		/*any channel page */
+		/*YOUTUBERS CHANNEL PAGE*/
+		/*CHANNEL TOP BAR  */
 
 
-			/* Youtube channel name Font  */
-			#text.ytd-channel-name {
-	   font-size: 15px !important;
+		
 
-			}
-
-			/*Youtuber name handle , suscribers , videos nun*/
-			 .ytd-c4-tabbed-header-renderer
-			{
-				color:#98971a !important;
+			/*Youtuber chanel background top cover*/
+		.ytd-c4-tabbed-header-renderer{
 				background-color:#1d2021 !important;
+				border-radius : 9px !important ; 
 			}
 
+		
+		
+		
+		
+		
 
 		/*Youtube video titles on creator page */
 		.ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer {
 			color:#98971a !important;
-		font-family: "chivo" , sans-serif !important;
-		font-size: 1.4rem;
-		line-height: 1.3rem;
+		font-family: "chivo" , "arial", sans-serif !important;
+		font-size: 1.5rem;
+		line-height: 1.2rem;
 		font-weight: 500;
 
 	}
-		/*hover for upper styles */
+		/*Youtube video titles on channel page hover color */
 		.ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer:hover{
 		color:#fb4934 !important;
-		font-family: "chivo" , sans-serif !important;
-		font-size: 1.4rem;
-		line-height: 1.3rem;
-		font-weight: 500;
+		
 	}
 
-		/*youtuber channel stats per video */
-		.ytd-grid-video-renderer:not([inline-badges]) #metadata-line.ytd-grid-video-renderer span.ytd-grid-video-renderer {
-		display: inline-block;
+		
+		/*youtuber channel page Video stats under the video */
+		
+		.ytd-grid-video-renderer   #metadata-line.ytd-grid-video-renderer  span.ytd-grid-video-renderer{
+		
 	color:#d5c4a1 !important;
+			font-family: "chivo" , "arial", sans-serif !important;
+			line-height: 1.1rem ; 
 	}
 
+		
+	
+		
+		
 		/*Youtube playlists */
-		.ytd-shelf-renderer[modern-typography] #title.ytd-shelf-renderer {
-	color:#689d6a !important;
+	
+/* Reduntant for now 		 */
+		
+
+/* 		#title.ytd-shelf-renderer{
+	color:#d5c4a1 !important;
 		font-family: "Chivo",sans-serif;
-		font-size: 1.9rem;
+		font-size: 1.3rem;
 		line-height: 2rem;
 		font-weight: 600;
 		overflow: hidden;
@@ -521,83 +507,59 @@
 		-webkit-box-orient: vertical;
 		text-overflow: ellipsis;
 		white-space: normal;
-	}
+	} */
 
 
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			/* VIDEO DESCRIPTOION AND OTHER RELATED STYLES*/
+		
+		
 		/*Video Description */
 
-		.yt-core-attributed-string--link-inherit-color{
+	.yt-core-attributed-string--link-inherit-color{
 			color:#d5c4a1 !important;
 		}
 
         
-        /*Video description background for links and color*/
-        /*background colors */
+        /*Video description background for links */
+        /* Links background colors */
+		
         .yt-core-attributed-string--link-inherit-color .yt-core-attributed-string__link--call-to-action-color {
-  
-            background-color:#16181a !important;
+  			background-color:#101113 !important;
             border-radius: 12px !important;
+			line-height: 8px !important ; 
 }
         
-          
+         
+    
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-/*Go to bottom of the page for the color of this property
-this was only  working there*/
-/*Youtube video page title font and other styles*/
-		.ytd-watch-metadata[title-headline-xs] h1.ytd-watch-metadata {
-
-		font-family: "Chivo Mono" , "Chivo" , "Arial"   !important;
-		font-size: 1.6rem;
-		line-height: 1.7rem;
-		font-weight: 400;
-		overflow: hidden;
-		display: block;
-		max-height: 5.6rem;
-		-webkit-line-clamp: 2;
-	
-	}
-
-	
-
-		
-
-
-
-
-		/*Video page description */
-		.ytd-watch-metadata[description-collapsed] #description.ytd-watch-metadata{
-		background-color: #16181a !important;
-
-	}
-
-		/*Video categories*/
-		/*this also applies to  other things as well*/
-		.style-scope yt-formatted-string{
-			color:#cc241d !important;
-		}
-
-		/*Hover for the Video Category*/
-		.style-scope yt-formatted-string:hover{
-			color:#98971a !important;
+		/* Video description view count  	 */
+		span.style-scope.yt-formatted-string.bold{
+		color: #98971a !important ; 
 		}
 
 
-		/*Video page views and others in descripton */
-		.bold.yt-formatted-string:not(a) {
-		color: #98971a ;
-	}
+	
 
 
 		/*Youtube creator video page sub count */
@@ -1499,7 +1461,7 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 			
 			
 			
-			
+
 			
 			
 			
