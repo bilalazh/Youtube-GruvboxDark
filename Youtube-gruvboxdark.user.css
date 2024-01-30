@@ -745,7 +745,9 @@
 			span.ytp-time-duration{
 				color:#fb4934 !important;
 
-
+			}
+			
+			
 	/*Redundant for now */
 			/*seperatior in the buttons menu*/
 			/*		.ytp-button:not([aria-disabled=true]):not([disabled]):not([aria-hidden=true]) {
@@ -775,30 +777,34 @@
 			/*styles realted to body */
 
 			html[dark], [dark] {
-			--yt-spec-base-background: #16181a !important;
-				/*not sure what this menu is */
-			--yt-spec-raised-background: #689d6a!important;
-			--yt-spec-menu-background: #282828;
+				
+				/*BACKGROUND OF WHOLE UI FRONT */
+			--yt-spec-base-background: #17191b !important;
+				
+				
+				/*reduntant for now */
+				/*--yt-spec-raised-background: #689d6a!important; */
+			/*--yt-spec-menu-background: #689d6a!important;*/
+			
 
-				/*not sure what this applies to */
-			--yt-spec-inverted-background: #98971a;
+			
+				/*YOUTUBE SIDE BAR MAJOR BACGROUND*/
 
-				/*categroy heading icosn base color */
-			--yt-spec-additive-background: #282828;
+				ytd-guide-section-renderer.style-scope.ytd-guide-renderer{
+					color:black !important;
+					background-color:#1d2021 !important;
+				}
+			
 
-				/*color when the video is not loaded */
-			--yt-spec-outline: #16181a!important;
-			--yt-spec-shadow: #98971a!important;
+				/*YOUTUBE VIDEO FRAME COLOR WHEN VIDEO NOT LOADDED*/
+			--yt-spec-outline: #8b8400 !important;
+			
 
-				/*categry text backgournd color*/
-			--yt-spec-text-primary: #d5c4a1 !important;
+				/*REC PAGE FIRST VIDEO CATEGORY CHIP*/
+			--yt-spec-text-primary: #eaedc8 !important;
 
 
-				/*view count front page */
-				/*days ago */
-				/*channel informatioin and countryu name first page*/
-	/*Side scrol bar -> where its applied  			 */
-			--yt-spec-text-secondary: #fb4934 !important;
+	
 
 				/*text disabled*/
 			--yt-spec-text-disabled: #98971a;
@@ -1597,7 +1603,7 @@
 
 
 
-
+			
 
 
 
