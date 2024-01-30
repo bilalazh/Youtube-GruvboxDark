@@ -1,3 +1,4 @@
+
 	/* ==UserStyle==
 	@name           youtube.com - Jan 2024
 	@namespace      github.com/openstyles/stylus
@@ -743,23 +744,7 @@ font-family: "Chivo" , "Arial"  , sans-serif !important ;
 	/*Total video duration */
 		span.ytp-time-duration{
 			color:#fb4934 !important;
-		}
-
-
-
-
-
-
-
-
-
-
-		
-		
-		
-		
-		
-
+	
 
 /*Redundant for now */
 		/*seperatior in the buttons menu*/
@@ -769,19 +754,18 @@ font-family: "Chivo" , "Arial"  , sans-serif !important ;
 	}*/
 
 
+			
+			
+			
+			
+			
+			
+			
+			
+			
 
 
-		/*Buttons Suscribe , Likes And share*/
-	.yt-spec-button-shape-next--size-m {
-		color:#d5c4a1 !important;
-		background-color:#282828 !important;
-		padding: 0 16px;
-		height: 36px;
-		font-size: 14px;
-		line-height: 36px;
-		border-radius: 18px;
-	}
-
+	
 
 
 
