@@ -1089,7 +1089,7 @@ this was only  working there*/
 
 
 
-			/**/
+			
 
 
 
@@ -1185,7 +1185,6 @@ this was only  working there*/
 
 
 
-hover
 
 
 
@@ -1197,7 +1196,7 @@ hover
 
 
 			/*Playlist header */
-			ytd-playlist-panel-renderer[collapsible] .header.ytd-playlist-panel-renderer {
+			.ytd-playlist-panel-renderer[collapsible].header.ytd-playlist-panel-renderer{
 		padding: 12px 6px 0 16px;
 
 	background-color:#1d2021 !important;
@@ -1367,6 +1366,7 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 				color : #ebdbb2 !important; 
 			}
 			
+			
 /* 		Reddit commemnts filtering 	 */
 			.css-1npz02u {
 
@@ -1430,14 +1430,19 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 
 
 
+		
+
 		}
+		
+		
+		
+		
+}
 
 
 
 
-
-
-	}
+	
 
 
 
