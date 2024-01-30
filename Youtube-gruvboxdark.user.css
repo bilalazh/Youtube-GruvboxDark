@@ -9,6 +9,7 @@
 
 		@-moz-document domain("youtube.com") {
 
+
 			:root{
 			/* 0 is for darkest 
 			1 is for hard 
@@ -884,6 +885,7 @@ see readme for the name of plugings 		 */
 		/*Video you already watched*/
 			span.ytp-time-current{
 				color:#b8bb26 !important;
+				font-weight: 800 !important ; 
 			}
 
 			/*video Time sepeartor*/
@@ -892,12 +894,21 @@ see readme for the name of plugings 		 */
 
 			}
 
-			/*total Time of video */
+			/*TOTAL VIDEO DUATTON  */
 		/*Total video duration */
 			span.ytp-time-duration{
+				font-size: 14px !important ; 
 				color:#fb4934 !important;
+				font-weight: 800 !important ; 
 
 			}
+			
+			
+			/*PLAYER CIRCLE PROGRESS BAR*/
+			div.ytp-scrubber-button.ytp-swatch-background-color{
+				background-color:#79740e !important;
+			}
+			
 			
 			
 	/*Redundant for now */
@@ -1242,8 +1253,7 @@ color:#356848 !important;
 		}
 
 
-
-
+			
 
 
 
@@ -1428,79 +1438,6 @@ color:#356848 !important;
 				}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/* .title, .style-scope .ytd-guide-entry-renderer {
-		color: #b57614 !important;
-	}		 */
-
-
-
-	/* 			.tp-yt-paper-item.ytd-guide-entry-renderer {
-		--paper-item-focused-before-border-radius: 10px;
-		--paper-item-focused-before-background: #16181a !important;
-		padding: 0 12px;
-		min-width: 0;
-		height: var(--paper-item-min-height,48px);
-	} */
-
-
-
-
-
-
-				/*messing with Youtube logo styles*/
-				/*youtube player extesnal logoss */
-
-			/*	svg path {
-			fill: #d5c4a1 !important; /* This will change the fill color to blue */
-
-			/*	stroke: #16181a !important;
-					stroke-width: 0.1px !important ; 
-		}
-			*/
-
-			/*
-		.external-icon path {
-			fill: #ebdbb2d6 !important;
-			stroke : #665c54 !important;
-			stroke-width: 0.7px !important;
-
-		}
-				*/
-
-
-
-
-		/*
-		.yt-core-attributed-string--white-space-no-wrap {
-			white-space: nowrap;
-
-		color:#f57d26 !important;
-		}
-
-		*/
 
 
 
