@@ -248,24 +248,10 @@
 		
 		
 		
-		
-
 
 		
-		
-		
-
-
-
-
-	
-
-		
-		
-		
-		
-		
-
+/*Input bar inside  		 */
+/* 		 INput being better now */
 		/*used this to channge the color of the search caret button */
 
 		#container.ytd-searchbox {
@@ -285,51 +271,52 @@
 	}
 
 
-		
-		
-
-		
-
-
-
-
-
-
-
-
-
-
+/* SEARCH ICON REALTED 		 */
 
 		/*search icon tweaks*/
-		/*tweaks to the way the search button looks */
+		/*Seach bar button bg static  */
 
 			/* it was 0 , 40 ,  40 , 0 before */
 		#search-icon-legacy.ytd-searchbox {
 		border: 1px solid var(--dim-green);
-		background-color: #3c3836 !important;
+		background-color: #fbf1c7 !important;
 		border-radius: 40px 40px 40px 40px;
 		cursor: pointer;
 		height: 40px;
 		width: 60px;
-		margin: 0;
+
 	}
+/*Just a hover  for the search button 		 */
 		/*tweaks search button icon and hover*/
 			#search-icon-legacy.ytd-searchbox:hover{
-		border: 1px solid #427b58 ;
+		border: 1px solid #fb4934 ;
 		background-color: #1d2021 !important;
 		border-radius: 40px 40px 40px 40px;
 		cursor: pointer;
 		height: 40px;
-		width: 60px;
+		width: 70px;
 		margin: 0;
+/*Added fade animation  				 */
+				animation: fadeIn 0.3s;
 	}
 
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 		/*All svgs on youtube UI */
 		svg{
-			color:#b8bb26fc !important;
+			color:#79740e !important;
 
 		}
 
