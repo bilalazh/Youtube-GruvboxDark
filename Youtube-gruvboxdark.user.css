@@ -1,3 +1,4 @@
+
 	/* ==UserStyle==
 	@name           youtube.com - Jan 2024
 	@namespace      github.com/openstyles/stylus
@@ -130,7 +131,15 @@
 	}
 
 
+		
+/* Importing Fonts 		 */
 
+/*Chivo MOno  		 */
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital@1&display=swap');
+
+/* Chivo  		 */
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital@1&family=Chivo:ital@1&display=swap');
 
 
 
@@ -1368,6 +1377,11 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 			
 			
 			
+/*Youtube progress player button circle inside the player  			 */
+			div.ytp-scrubber-button.ytp-swatch-background-color{
+				background-color : #b8bb26 !important; 
+				
+			}
 			
 			
 			
@@ -1424,6 +1438,7 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 
 
 	}
+
 
 
 
