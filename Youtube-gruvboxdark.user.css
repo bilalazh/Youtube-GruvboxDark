@@ -1,7 +1,8 @@
+
 	/* ==UserStyle==
 	@name           youtube.com - Jan 2024
 	@namespace      github.com/openstyles/stylus
-	@version        1.0.1
+	@version        1.0.0
 	@description    A new userstyle
 	@author         Me
 	==/UserStyle== */
@@ -131,6 +132,18 @@
 
 
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+/*FOnt Import mpve Past it  		 */
+		
 /* Importing Fonts 		 */
 
 /*Chivo MOno  		 */
@@ -142,6 +155,18 @@
 
 
 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	/*Youtube search recoomandations*/
 		/*Youtube search suggestions*/
@@ -160,36 +185,19 @@
 
 
 
-		/*time of video */
-		/*How long a video is */
-		#time-status.ytd-thumbnail-overlay-time-status-renderer {
 		
 		
 		
-		color: #ebdbb2 ;
-		background-color: #356848 !important;
-		padding: 3px 4px;
-		height: 12px;
-		border-radius: 4px;
-		font-size: var(--yt-badge-font-size,1.36rem);
-		font-weight: 600;
-		line-height: var(--yt-badge-line-height-size,1.2rem);
-		letter-spacing: var(--yt-badge-letter-spacing,unset);
-		letter-spacing: var(--yt-badge-letter-spacing,.5px);
-	}
+		
+		
+		
+		
+		
+		
+		
+/* 	Input text buffer */
 
-
-
-
-
-
-
-
-
-
-
-
-		/*Top search bar realated colors*/
+	/*Top search bar realated colors*/
 			/*search bar button styles*/
 
 		html[dark], [dark] {
@@ -222,6 +230,36 @@
 		margin-left: 0;
 		padding: 2px 4px 2px 48px;
 	}
+
+
+		
+
+/*Youtube saerch box button when  the search bar is clicked  		 */
+		ytd-searchbox[has-focus] #container.ytd-searchbox {
+    border: 1px solid #fb4934;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+    margin-left: 0;
+    padding: 2px 4px 2px 48px;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+	
 
 
 		/*used this to channge the color of the search caret button */
@@ -886,7 +924,21 @@ this was only  working there*/
             
             
             
-            
+            /*time of video */
+		/*How long a video is */
+		#time-status.ytd-thumbnail-overlay-time-status-renderer {
+		color: #ebdbb2 ;
+		background-color: #356848 !important;
+		padding: 3px 4px;
+		height: 12px;
+		border-radius: 4px;
+		font-size: var(--yt-badge-font-size,1.36rem);
+		font-weight: 600;
+		line-height: var(--yt-badge-line-height-size,1.2rem);
+		letter-spacing: var(--yt-badge-letter-spacing,unset);
+		letter-spacing: var(--yt-badge-letter-spacing,.5px);
+	}
+
             
             
 
@@ -1490,6 +1542,7 @@ h1.style-scope.ytd-watch-metadata yt-formatted-string {
 
 
 	
+
 
 
 
