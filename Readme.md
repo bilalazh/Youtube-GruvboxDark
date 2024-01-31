@@ -79,6 +79,13 @@ There are few extensions i use to change how Youtube is displayed or functions
 
 
 
+
+### Known Issues 
+- Theme is working differently on different broswers 
+
+
+
+
 #### TODOs : 
 
 - Check theme before uplaoding to user styles 
